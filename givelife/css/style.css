@@ -1,0 +1,611 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+
+  html,body{
+    font-size: 62.5%;
+  }
+  
+  h1
+  h2
+  h3
+  h4
+  h5
+  h6{
+    font-family: "Open Sans", serif;
+  }
+  
+  p,li,a{
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: "Urbanist", serif;
+  }
+  
+  li{
+    list-style-type: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    /* width: 100%; */
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 1rem;
+  }
+
+  .hero-para{
+    position: relative;
+    margin: 2rem 0 4rem 0;
+  }
+
+  .causes-header{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  
+  }
+  
+  .grid{
+    display: grid;
+  }
+  
+  .grid-two--cols{
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  .grid-three--cols{
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  .grid-four--cols{
+    grid-template-columns: repeat(4,1fr);
+  }
+  
+  .grid-five--cols{
+    grid-template-columns: repeat(5,1fr);
+  }
+  .container{
+    max-width: 129.6rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .section-gap{
+    margin-top: 15rem;
+  }
+  
+  button{
+    border: transparent;
+    background-color: transparent;
+  }
+
+  .btn{
+    padding: 1.2rem 4rem;
+    background-color: #219D80;
+    color: white;
+    text-transform: capitalize;
+    display: inline-block;
+    position: relative;
+    border: transparent;
+    
+  }
+  .btn-white{
+    background-color: transparent;
+    border: 1px solid #219D80;
+  }
+
+
+  .hero-heading{
+    font-size: 3.9rem;
+    font-weight: 700;
+    position: relative;
+  }
+
+  .section-heading{
+    font-size: 7.2rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    color: white;
+    position: relative;
+  }
+  
+  .hero-header--para{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+    position: relative;
+  
+    &::after{
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translate(10px,50%);
+      width: 5rem;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+  
+  }
+  .section-navbar {
+    height: 100vh;
+    position: relative;
+  }
+.section-navbar .container{   
+  
+    .navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+
+    .brand-logo {
+    width: 28.44px;
+    height: 24.89px;
+    position: absolute;
+  }
+      ul{
+        display: flex;
+        align-items: center;
+        gap: 3.4rem;
+        text-transform: capitalize;
+
+        a{
+          color: white;
+        }
+      }
+      .li-arrow{
+        display: flex;
+        align-items: center;
+      }
+  
+      .section-contact{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+  
+        p{
+          color: white;
+        }
+  
+        .fa-solid{
+          width: 3rem;
+          height: 3rem;
+          background-color: transparent;
+          font-size: 1.7rem;
+          color: white;
+          padding: 2rem;
+          border: 1px solid white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+    .section-title{
+      display: flex;
+      align-items: center;
+      position: relative;
+      
+      .title{
+        font-size: 2.4rem;
+        color: white;
+      }
+    }
+  
+  
+     
+      .section-hero {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+  
+        .hero-subheading{
+          font-size: 1.7rem;
+          font-weight: 700;
+          word-spacing: .2rem;
+          letter-spacing: .1rem;
+          color: #EEEEEE;
+          text-transform: capitalize;
+          position: relative;
+        }
+
+        .hero-heading{
+            color: white;
+        }
+  
+  
+        .hero-para{
+          font-size: 1.6rem;
+          position: relative;
+          margin: 2rem 0 4rem 0;
+          color: #EEEEEE;
+        }
+  
+      }
+  }
+
+  .section-about .grid{
+    align-items: center;
+  }
+
+.section-hero--image{
+  width: 60rem;
+  height: 67.8rem;
+}
+  .section-hero--content{
+    width: 43.3rem;
+    height: 32rem;
+  }
+  
+  .bg-image{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -1;
+  }
+
+  .green-image{
+    width: 86rem;
+    height: 100%;
+  }
+
+
+  .donation{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+     label{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between; 
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+
+.progress{
+  width: 100%;
+  height: 10px;
+  background-color: #C7E7DF;
+  position: relative; 
+
+   &::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    width: 75%;
+    height: 100%;
+    background-color: #219D80;
+  }
+}
+
+  }
+
+  #fa-solid{
+    width: 10rem;
+    aspect-ratio: 1;
+    background-color: #D9F5EE;
+    color: black;
+    margin: 1rem;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 4rem;
+    font-weight: 400;
+  }
+
+  .section-charity{
+
+      .grid{
+      align-items: center;
+    
+    }
+
+    .section-hero--content{
+      width: 54.1rem;
+      height: 53.6rem;
+    }
+  
+    .common-div{
+  
+      .our-mission{
+        width: 24.2rem;
+        height: 14.6rem;
+        background-color: #EDF7F5;
+        border: 1x solid  #219D80;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+  
+        .image{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: start;
+          margin-top: 2rem;
+          gap: 1rem;
+          font-size: 1.7rem;
+          font-weight: bold;
+          color: green;
+          text-transform: capitalize;
+        }
+  
+        .hero-para{
+          font-size: 1.5rem;
+          font-weight: 300;
+          color: #555555;
+          margin-left: 3rem;
+        }
+        
+      }
+    }
+  
+    .common-div{
+      display: flex;
+      gap: 6rem;
+    }
+  
+       
+    .donation{
+      margin-top: 2rem;
+  
+      label{
+        margin-bottom: .5rem;
+      }
+  
+      .progress-medical::before{
+        width: 90%;
+      }
+    }
+
+    .section-hero--image{
+      width: 63.6rem;
+      height: 65.2rem;
+    }
+  }
+
+  .our-fun{
+
+
+  .grid{
+    align-items: center;
+    gap: 3.2rem;
+  }
+
+  .hero-heading{
+    font-size: 3.9rem;
+    font-weight: bold;
+  }
+
+  .header-para{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 1.8rem;
+  }
+
+  .fun-div--1{
+    width: 30.6rem;
+    height: 37.2rem;
+    background-color: rgba(33, 157, 128, 0.08);
+    color: black;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    svg{
+      width: 12rem;
+      aspect-ratio: 1;
+      margin-bottom: 3rem;
+    }
+
+    .hero-heading{
+      font-size: 4.8rem;
+      font-weight: 700;
+    }
+  }
+}
+
+.testimonial{
+  width: 100%;
+  height: 67.8rem;
+  background-image: url('/images/Rectangle\ 2898.jpg');
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .header-para{
+    margin-top: .5rem;
+  }
+
+  .center-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8rem;
+
+    #fa-solid{
+      font-size: 5.6rem;
+      background-color: transparent;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .hero-header--para{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: .5remrem;
+    text-transform: capitalize;
+    position: relative;
+  
+    &::after{
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translate(10px,50%);
+      width: 5rem;
+      border: 1px solid white;
+    }
+
+    &::before{
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 38.5%;
+      transform: translate(50%,50%);
+      width: 5rem;
+      border: 1px solid white;
+    }
+  }
+}
+
+.logo{
+  margin-left: 17.5rem;
+  
+.img{
+    width: 25rem;
+    height: 10rem;
+  }
+
+  .grid{
+    align-items: center;
+    gap: 2rem;
+  }
+}
+  
+  
+.footer{
+ width: 100%;
+ height: 51.2rem;
+ background-color: black;
+ color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+
+.grid{
+  align-items: start;
+  gap: 3.2rem;
+}
+
+.title-para{
+  margin-top: 2rem;
+  padding: 1rem;
+
+  p{
+    margin-bottom: .8rem;
+  }
+}
+  .footer-para{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  
+  .footer-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    
+  }
+
+  .footer-header{
+   font-size: 1.6;
+   font-weight: 700;
+   text-transform: capitalize;
+   margin-bottom: 2rem;   
+  }
+
+  ul li{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+  }
+  a{
+    color: #AFAFAF;
+  }
+
+  .royal{
+    margin-bottom: 0;
+  }
+  .royal-para{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #AFAFAF;
+  }
+
+  .label{
+    display: flex;
+    align-items: center;
+  }
+
+  .btn{
+    color: white;
+  }
+
+  input{
+    padding: 1.3rem;
+  }
+
+  .footer-logo{
+    margin-top: 2rem;
+
+    .royal{
+      margin-bottom: 1rem;
+    }
+  }
+  .footer-icons{
+    gap: 2rem;
+
+    #fa-solid-footer{
+      aspect-ratio: 1;
+      background-color: white;
+      color: black;
+      font-size: 1.6rem;
+      border-radius: 50%;
+      padding: .4rem;
+      margin-top: 1rem;
+      margin-left: .4rem;
+    }
+  }
+}
+
+::placeholder{
+  text-transform: capitalize;
+ padding: 1rem;
+}
