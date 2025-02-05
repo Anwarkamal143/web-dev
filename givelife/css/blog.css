@@ -1,0 +1,251 @@
+
+
+.section-heading{
+    font-size: 4.8rem;
+}
+
+.header{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 5rem 2.5rem;
+    position: relative;
+
+    &::after{
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 15%;
+        width: 5rem;
+        transform: translate(-100% , 1.2rem);
+        border:  1px solid #219D80;
+    }
+}
+
+.poor-people{
+
+.hero-heading{
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}   
+
+.pink-div{
+    width: 85.6rem;
+    height: 39.8rem;
+    background-color: #D9D9D9 ;
+}
+
+.category{
+    width: 41.6rem;
+    height: 39.9rem;
+    background-color: #EDF7F5;
+    margin-left: 5rem;
+
+    .same-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1.2rem;
+
+        .category-para{
+            font-size: 2rem;
+            font-weight: 500;
+            color: #252A34;
+        }
+    }
+
+    hr{
+        margin: 1rem;
+        background-color: #E3E3E3;
+    }
+}
+}
+
+.news-icons{
+    display: flex;
+    gap: 6.5rem;
+    margin-top: 3rem;
+ }
+
+ .news-para{
+   font-size: 1.4rem;
+   font-weight: 500;
+   color: #999999;
+ }
+
+ .icons{
+   display: flex;
+   align-items: center;
+   gap: .5rem;
+ }
+
+ #fa-solid-news{
+   font-size: 2rem;
+   color: #999999;
+ }
+
+.blog-contact{
+
+    .blog-content{
+        width: 81.5rem;
+        
+    
+        .blog-header{
+            font-size: 2.5rem;
+            height: 700;
+            text-transform: capitalize;
+            margin-top: 3rem;
+        }
+    
+        .blog-para{
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: #666666;
+            margin-top: 3rem;
+     }
+    
+    }
+    
+    .blog-post{
+        width: 41.6rem;
+       height: 55.1rem;
+       background-color: #EDF7F5;
+       margin-left: 8.7rem;
+       margin-top: 3rem;
+    
+    .header{
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 5rem 2.5rem;
+        position: relative;
+    
+        &::after{
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 15%;
+            width: 5rem;
+            transform: translate(-100% , 1.2rem);
+            border:  1px solid #219D80;
+        }
+    
+    }
+        .same-post-div{
+         display: flex;
+         align-items: center;
+         gap: 2rem;
+         margin: 2rem;
+    
+            .empty-div{
+                width: 15rem;
+                height: 11rem;
+                background-color: #D9D9D9; 
+            }
+    
+            .post-content{
+                width: 17.8rem;
+                height: 8.4rem;
+    
+                .post-header{
+                    font-size: 2rem;
+                    font-weight: 500;
+                    color: #252A34;
+                }
+    
+                .post-para{
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #252A34;
+                    margin-top: 1rem;
+                }
+    
+            }
+        }
+      
+     }
+
+}
+
+.testimonial-1{
+    color: white;
+
+    .div-1{
+    width: 85.6rem;
+    height: 39.5rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10.5rem;
+   
+
+    img{
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-para{
+        margin-top: 5rem;
+    }
+    }
+
+    .tags-div{
+        width: 41.6rem;
+        height: 25.6rem;
+        background-color: #EDF7F5;
+        margin-left: 4rem;
+        color: black;
+        margin-top: 8rem;
+
+     .tag-button{
+        margin-left: 2rem;
+    
+        .btn{
+            padding: .7rem 1.5rem;
+            
+            margin: 1rem;
+            font-size: 1.4rem;
+            font-weight: 400;
+           }
+     }
+    }
+
+
+    
+}
+
+.blog-last--para{
+    margin-top: 5rem;
+}
+
+.blog-content{
+    width: 81.5rem;
+    
+    
+
+    .blog-header{
+        font-size: 2.5rem;
+        height: 700;
+        text-transform: capitalize;
+        margin-top: 3rem;
+    }
+
+    .blog-para{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #666666;
+        margin-top: 3rem;
+ }
+
+}
+
+.images{
+    margin-top: 8rem;
+
+    img{
+        width: 129.6rem;
+        height: 35.5rem;
+    }
+}

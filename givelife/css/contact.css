@@ -1,0 +1,138 @@
+
+label{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #252A34;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+input{
+    width: 37.8rem;
+    height: 5.2rem;
+    background-color: #D9D7D7;
+    color: #777777;
+    border: 1px solid hsla(0, 2%, 85%, 1);
+}
+
+
+
+.contact{
+    margin-top: 10rem;
+
+    .grid{
+        align-items: center;
+        gap: 6.4rem;
+    }
+
+    .hero-header--para{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .hero-heading{
+        text-transform: capitalize;
+        margin-top: 3rem;
+    }
+
+    .information-div{
+        width: 78rem;
+        height: 42.8rem;
+        margin-top: 3rem;
+       
+
+        .name-div{
+            display: flex;
+            gap: 3.2rem;
+            margin-top: 2.5rem;
+        }
+
+        .message-div{
+            margin-top: 2.5rem;
+
+            textarea{
+                width: 780px;
+                height: 180px;
+                top: 902px;
+                left: 312px;
+                gap: 0px;
+                opacity: 0px;
+                background-color: #D9D7D7;
+            }
+        }
+
+        .btn{
+            margin-top: 3rem;
+            padding: 1.5rem 3rem;
+        }
+    }
+
+    .address{
+        width: 443px;
+        height: 390px;
+        background-color: #EDF7F5;
+        margin-top: 7rem;
+
+        .address-header{
+            font-size: 39px;
+            font-weight: 700;
+            margin-top: 5rem;
+            margin-left: 2rem;
+        }
+
+        .address-para{
+            width: 40.3rem;
+            height: 7.2rem;
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: #666666;
+            margin-top: 3rem;
+            margin-left: 2rem;
+            word-spacing: .5rem;
+        }
+
+        .last-para{
+          margin-top: 1rem;
+          margin-left: 2rem;
+
+          p{
+            margin-top: 2rem;
+          }
+            span{
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+            bold{
+                font-size: 1.7rem;
+                font-weight: 700;
+                letter-spacing: .1rem;
+            }
+        }
+
+        /* .address-last--para{
+            display: flex;
+            text-align: l;
+            
+
+
+            .last-para{
+                font-size: 1.6rem;
+                font-weight: 600;
+               margin-top: 3rem;
+               margin-left: 2rem;
+            }
+    
+            
+            span{
+                font-size: 1.6rem;
+                font-weight: 400;
+                color: #000000;
+                margin-top: 3rem;
+
+    
+            }
+        } */
+
+    }
+
+}
