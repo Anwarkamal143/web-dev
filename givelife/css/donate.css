@@ -1,0 +1,39 @@
+.black-div{
+    width: 85.6rem;
+    height: 9.3rem;
+    background-color: hsla(220, 17%, 17%, 0.5);
+
+    .btn{
+        margin: 3rem;
+    }
+}
+
+.donation{
+    width: 100%;
+    
+    label{
+        margin-bottom: 1rem;
+    }
+}
+
+.money-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aqua-div{
+    width: 85.7rem;
+    height: 12.6rem;
+    background-color: hsla(168, 38%, 95%, 1);
+    margin-left: 19rem;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.empty-div{
+    width: 85.6rem;
+    height: 33.6rem;
+    background-color: hsla(0, 0%, 85%, 1);
+}
