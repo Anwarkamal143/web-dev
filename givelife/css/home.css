@@ -1,0 +1,298 @@
+
+
+.hero-para{
+  position: relative;
+  margin: 2rem 0 4rem 0;
+
+}
+
+.grid{
+  display: grid;
+}
+
+.grid-two--cols{
+  grid-template-columns: repeat(2,1fr);
+}
+
+.grid-three--cols{
+  grid-template-columns: repeat(3,1fr);
+}
+
+.grid-four--cols{
+  grid-template-columns: repeat(4,1fr);
+}
+
+.grid-five--cols{
+  grid-template-columns: repeat(5,1fr);
+}
+
+
+
+button{
+  margin: 1rem;
+}
+
+.section-about{
+
+
+ .section-hero--content{
+
+
+  .hero-heading{
+    color: black;
+  }
+
+  .hero-para{
+    line-height: 3rem;
+    color: #444444;
+  }
+ }
+   
+}
+
+.section-charity{
+
+
+  .grid{
+    align-items: center;
+    gap: 10rem;
+  }
+
+  .common-div{
+
+    .our-mission{
+      width: 24.2rem;
+      height: 14.6rem;
+      background-color: #EDF7F5;
+      border: 1x solid  #219D80;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+
+      .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+        margin-top: 2rem;
+        gap: 1rem;
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: green;
+        text-transform: capitalize;
+      }
+
+      .hero-para{
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #555555;
+        margin-left: 3rem;
+      }
+      
+    }
+  }
+
+  .common-div{
+    display: flex;
+    gap: 6rem;
+  }
+
+     
+  .donation{
+    margin-top: 2rem;
+
+    label{
+      margin-bottom: .5rem;
+    }
+
+    .progress-medical::before{
+      width: 90%;
+    }
+  }
+}
+
+
+.latest-causes{
+   
+
+
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+}
+
+.latest-causes .grid{
+   align-items: start;
+   gap: 3.2rem;
+
+}
+
+.causes-div{
+  width: 30.6rem;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  .progress{
+    width: 90%;
+  }
+
+  label{
+    width: 90%;
+    margin-bottom: .7rem;
+  }
+
+  .progress-1::before{
+    width: 60%;
+  }
+
+  .progress-2::before{
+    width: 85%;
+  }
+
+  .progress-3::before{
+    width: 90%;
+  }
+
+  .progress-4::before{
+    width: 75%;
+  }
+
+  .header-para{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #219D80;
+    margin: 2rem;
+    font-family: "Montserrat", serif;
+  }
+
+  .causes-header{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem;
+  }
+
+  .hero-para{
+    margin: 2rem;
+    font-size: 1.4rem;
+    font-weight: mixed;
+    font-family: "Montserrat", serif;
+  }
+ 
+  .donation{
+    margin-top: 2rem;
+
+
+    .progress-medical::before{
+      width: 90%;
+    }
+  }
+
+  .money-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn-white{
+    background-color: white;
+    color: #219D80;
+    border:2px solid  #219D80;
+    position: relative;
+  }
+}
+
+
+.latest-news{
+ 
+
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .grid{
+    align-items: center;
+    gap: 3.2rem;
+  }
+}
+
+.news-div{
+
+  width: 41.6rem;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 6rem;
+
+
+  .heading{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+  }
+
+  .progress{
+    width: 90%;
+  }
+
+  label{
+    width: 90%;
+  }
+
+  .progress-1::before{
+    width: 60%;
+  }
+
+  .causes-content{
+    margin: 2rem;
+    text-align: start;
+
+
+    .hero-para{
+      color: #555555;
+    }
+    .news-header{
+      font-size: 2rem;
+      font-weight: bold;
+      margin-top: 2rem;
+    }
+
+    .news-icons{
+       display: flex;
+       gap: 6.5rem;
+       margin-top: 3rem;
+    }
+
+    .news-para{
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: #999999;
+    }
+
+    .icons{
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+
+    #fa-solid-news{
+      font-size: 2rem;
+      color: #999999;
+    }
+
+
+    .btn-white{
+      background-color: white;
+      color: #219D80;
+      border:2px solid #219D80;
+    }
+
+  }
+}
+
