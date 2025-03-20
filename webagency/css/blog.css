@@ -1,0 +1,148 @@
+hr{
+    margin-top: 0rem;
+    color: rgba(196, 196, 196, 1);
+}
+
+.section-about .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+    margin-top: 8rem;
+
+    .blog-subheading{
+        font-size: 4.2rem;
+        font-weight: 700;
+    }
+
+    .para{
+        font-size: 2rem;
+       margin: 0;
+    }
+
+    .icon-div{
+        width: 40rem;
+        height: 4.9rem;
+        background-color: rgba(241, 241, 241, 1);
+        display: flex;
+        align-items: center;
+        padding-left: 3rem;
+
+        .para{
+            padding-left: 2rem;
+        }
+
+        .fa-solid{
+            font-size: 1.5rem;
+            color: rgba(114, 114, 114, 1);
+            padding-top: .3rem;
+        }
+    }
+
+    .simple-div{
+        display: flex;
+        align-items: center;
+        gap: 3.2rem;
+
+        .para{
+            width: 16.2rem;
+            height: 4.8rem;
+            background-color: rgba(231, 239, 243, 1);
+            color: rgba(16, 144, 203, 1);
+            font-size: 1.4rem;
+            border-radius: 5rem;
+            padding-top: 1.3rem;
+        }
+
+        .bg{
+            background-color: rgba(16, 144, 203, 1);
+            color: white;
+        }
+    }
+
+}
+
+.section-name-here{
+  
+
+    .grid{
+        align-items: center;
+    }
+    .section-image{
+       img{
+        width: 53.5rem;
+        height: 34.0rem;
+       }
+    }
+
+    .section-content{
+        width: 52.5rem;
+        height: 23rem;
+
+        .section-heading{
+            font-size: 2.7rem;
+            font-weight: 600;
+        }
+    }
+
+    .name-div{
+        margin-top: 3rem;
+
+        .name{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            h3{
+                font-size: 1.8rem;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 1);
+            }
+            p{
+                font-size: 1.4rem;
+                font-weight: 400;
+                color: rgba(123, 123, 123, 1);
+                margin-top: .3rem;
+            }
+
+        }
+
+        span{
+            font-size: 1.4rem;
+            margin-left: 17rem;
+        }
+    }
+}
+
+.section-three--div{
+
+
+    .section-same--div{
+        .same-div--header{
+            font-size: 2.3rem;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 1);
+            margin-top: 3rem;
+        }
+
+        .name{
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            h3{
+                font-size: 1.8rem;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 1);
+            }
+            p{
+                font-size: 1.4rem;
+                font-weight: 400;
+                color: rgba(123, 123, 123, 1);
+                margin-top: .3rem;
+            }
+
+        }
+    }
+
+}

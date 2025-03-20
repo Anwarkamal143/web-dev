@@ -1,0 +1,184 @@
+.section-about{
+
+
+    .grid{
+        align-items: center;
+    }
+    .section-images{
+        .image-1{
+          width: 24.7rem;
+          height: 25.9rem;  
+        }
+        .image-2{
+            width: 28.8rem;
+            height: 34.6rem;
+            margin-left: 4rem;
+        }
+    }
+
+    .section-content{
+
+        .section-subheading{
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: rgba(16, 144, 203, 1);
+            font-family: "Poppins", sans-serif;
+        }
+
+        .section-heading{
+          font-size: 4rem;
+          font-weight: 600;
+          color: rgba(37, 37, 37, 1);
+          margin-top: 2.5rem;
+          margin-bottom: 1rem;
+          font-family: "Poppins", sans-serif;
+        }
+    }
+}
+
+.section-image .container{
+
+    display: flex;
+    align-items: center;
+    gap: 6.2rem;
+    margin-top: 5rem;
+
+    .same-image{
+     
+        img{
+            width: 52.1rem;
+            height: 34.6rem;
+            margin-left: 6rem;
+        }
+        
+    }
+    .same-image--1{
+        width: 54.2rem;
+        height: 34.6rem;
+    }
+}
+
+.section-paragraph {
+    padding-left: 7rem;
+    
+    .para-header{
+        font-size: 4.5rem;
+        font-weight: 600;
+        color: rgba(16, 144, 203, 1);
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 5rem;
+    }
+    .paragraph{
+        font-size: 2rem;
+        font-weight: 400;
+        color: rgba(88, 88, 88, 1);
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+.section-applictaion{
+   margin-left: 7rem;
+   margin-top: 25rem;
+
+    .section-para{
+
+
+        .section-header{
+            font-size: 3rem;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 1);
+            position: relative;
+
+
+            &::after{
+                content: "";
+                position: absolute;
+                top: -50%;
+                left: 0%;
+                transform: translate( 0%, 100%);
+                width: 5.4rem;
+                border: 5px solid  rgba(70, 40, 164, 1);
+
+            }
+        }
+
+        .para{
+            font-size: 2rem;
+            color: rgba(88, 88, 88, 1);
+        }
+
+        .btn-white{
+            width: 19.3rem;
+            height: 5.1rem;
+            margin-top: 5rem;
+            background-color: white;
+        }
+
+
+    }
+}
+
+.section-web{
+
+    width: 70rem;
+    height: 30rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    .web-div{
+       display: flex;
+       align-items: center;
+       gap: 10rem;
+       margin: 5rem;
+
+        .icon-div{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .left-margin{
+            margin-left: 3.5rem;
+        }
+
+        .fa-brands{
+            width: 6rem;
+            height: 6rem;
+            background-color: rgba(255, 242, 242, 1);
+            color: rgba(255, 78, 78, 1);
+            font-size: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 1rem;
+        }
+
+        .fa-solid{
+            width: 6rem;
+            height: 6rem;
+            background-color:rgba(226, 243, 255, 1);
+            color:rgba(0, 115, 198, 1);
+            font-size: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 1rem;
+        }
+
+        .bg-mob{
+            background-color: rgba(241, 232, 255, 1);
+            color: rgba(110, 0, 250, 1);
+        }
+
+        .bg-cloud{
+            background-color:rgba(255, 231, 251, 1);
+            color: rgba(144, 0, 120, 1);
+        }
+
+       .web-para{
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: rgba(46, 13, 100, 1);
+       }
+    }
+}
+

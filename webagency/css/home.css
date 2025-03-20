@@ -1,0 +1,287 @@
+
+.nav-item{
+     color: #1090CB;
+}
+
+.section-about{
+    width: 100%;
+    height: 80.3rem;
+    background-color: hsla(199, 85%, 43%, 0.1);
+
+    .container{
+        align-items: center;
+        gap: 6.4rem;
+
+        .section-content{
+           .section-heading{
+            font-size: 4rem;
+            font-weight: 600;
+            color: hsla(0, 0%, 0%, 1);
+            font-family: "Poppins", sans-serif;
+          
+           }
+
+           .section-para{
+             font-size: 1.6rem;
+             font-weight: 400;
+             color: hsla(0, 0%, 36%, 1);
+             padding: 2.5rem 0 6rem 0;
+             word-spacing: .3rem;
+             line-height: 2rem;
+           }
+
+           .btn{
+            margin-right: 1.5rem;
+           }
+        }
+    }
+
+    .section-image{
+        img{
+
+          width: 100%;
+          height: auto;
+          margin-bottom: 5rem;
+        }
+    }
+}
+
+
+
+::placeholder{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgba(120, 120, 120, 1);
+  padding: 2rem;
+}
+
+.link-item .container{
+
+  display: flex;
+  align-items: center;
+  gap: 9.6rem;
+
+  .web-div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    
+   
+   
+    .image-div{
+     width: 8.3rem;
+     height: 8.3rem;
+     background-color: hsla(256, 100%, 96%, 1);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 25%;
+   }
+
+   .seo{
+    background-color: hsla(90, 100%, 93%, 1);
+   }
+
+   .ar{ 
+    background-color: hsla(220, 100%, 93%, 1);
+   }
+
+   .mobile{
+    background-color: hsla(18, 100%, 93%, 1);
+   }
+ 
+   .web-header{
+     font-size: 2rem;
+     font-weight: 500;
+     color: hsla(0, 0%, 0%, 1);
+   }
+ 
+   .web-para{
+     font-size: 1.5rem;
+     font-weight: 400;
+     color: hsla(0, 0%, 59%, 1);
+     margin-top: .5rem;
+   }
+ 
+ }
+}
+
+hr{
+  margin-top: 7rem;
+  color: rgba(199, 199, 199, 1);
+}
+
+.section-lorem{
+  text-align: center;
+  margin-top: 10rem;
+
+  .lorem-header{
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: hsla(0, 0%, 15%, 1);
+    word-spacing: .3rem;
+    letter-spacing: .1rem;
+
+  }
+
+  .lorem-para{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: hsla(0, 0%, 52%, 1);
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+}
+
+.section-mobile{
+
+  .grid{
+    align-items: center;
+    gap: 6.4rem;
+  }
+
+  .section-content{
+
+   .mobile-content{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+   }
+
+    .image-div{
+      width: 5.8rem;
+      height: 5.8rem;
+      background-color: rgba(8, 211, 187, 1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: white;
+    }
+
+    .bg-pink{
+      background-color: rgba(146, 8, 211, 1);
+    }
+
+    .mob-header{
+      font-size: 1.7rem;
+      font-weight: 400;
+      color: hsla(0, 0%, 0%, 1);
+    }
+
+    .mob-para{
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: rgba(134, 134, 134, 1);
+      margin-top: .5rem;
+    }
+  }
+
+  .mobile-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+    margin-top: 3rem;
+  }
+
+ .pages{
+ img{
+  width: 60rem;
+  height: 54.5rem;
+  margin-right: 15rem;
+ }
+
+ }
+
+ .focus{
+  img{
+   width: 80rem;
+   height: 47rem;
+  }
+ }
+
+}
+
+.section-same--div{
+
+  .grid{
+    align-items: center;
+    gap: 3.2rem;
+  }
+
+  .white-div{
+    width: 57.2rem;
+    height: 45.9rem;
+    background-color: rgba(244, 244, 244, 1);
+    border-radius: 2rem;
+    text-align: center;
+    
+  
+    .white-header{
+      width: 36.5rem;
+      height: 8.4rem;
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-left: 10rem;
+      margin-top: 6rem;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .white-para{
+      width: 47.6rem;
+      height: 14.1rem;
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: rgba(84, 84, 84, 1);
+      margin-left: 5rem;
+      margin-top: 3rem;
+    }
+
+    .blue-btn{
+      padding: 1.5rem 3rem;
+      background-color: rgba(16, 144, 203, 1);
+      margin-top: 3rem;
+    }
+
+   
+  }
+  .blue-div{
+    background-color: rgba(16, 144, 203, 1);
+    color: white;
+
+    .white-para{
+      color: rgba(255, 255, 255, 1);
+    }
+   button{
+    background-color: transparent;
+   }
+    .btn{
+      background-color: white;
+      color: rgba(16, 144, 203, 1);
+    }
+
+}
+
+}
+
+.section-company{
+
+
+  .company-header{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    font-family: "Poppins", sans-serif;
+  }
+
+  .logo-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13rem;
+  }
+}
+
