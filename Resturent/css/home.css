@@ -1,0 +1,792 @@
+.section-header{
+
+    .top-heading{
+        width: 191rem;
+        height: 4rem;
+        background-color: hsla(213, 56%, 21%, 1);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav-item{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            padding-left: 4rem;
+
+            li{
+                font-size: 1.3rem;
+                font-weight: 700;
+               
+            }
+        }
+
+        .follow{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 1.4rem;
+            font-weight: 700;
+            padding-right: 4rem;
+        
+            .header{
+                font-size: 1.3rem;
+                font-weight: 700;
+            }
+        }
+
+    }
+    .section-navbar{
+        width: 191rem;
+        height: 9.5rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        align-items: center;
+
+        .navbar{
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+            padding-left: 21rem;
+
+            li,a{
+                font-size: 1.4rem;
+                font-weight: 700;
+                color: hsla(213, 56%, 21%, 1);
+            }
+
+            .red{
+                color: hsla(6, 86%, 69%, 1);
+            }
+        }
+
+        .image{
+
+            .link-image{
+                 width: 17.1rem;
+                 height: 5rem;
+                 margin-left: 10rem;
+            }
+        }
+
+        .search-div{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-left: 27rem;
+
+            .search{
+                width: 34rem;
+                height: 4.5rem;
+                border: 1px solid hsla(0, 0%, 85%, 1);
+                border-radius: 3rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: hsla(211, 11%, 37%, 1);
+                padding: 1rem;
+               
+    
+                .fa-solid{
+                    font-size: 2rem;
+                    color: hsla(213, 56%, 21%, 1);
+                }
+            }
+
+           .user-div{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            .user{
+                font-size: 2.4rem;
+              }
+              p{
+                font-size: 1.4rem;
+                font-weight: 700;
+                color: hsla(213, 56%, 21%, 1);
+                font-family: "Inter", sans-serif;
+              }
+           }
+        }
+
+       
+    }
+}
+ .section-about .container{
+        width: 131rem;
+        height: 54rem;
+        margin-top: 7rem;
+       
+        
+
+       .menu-div{
+        width: 30.8rem;
+        height: 51rem;
+        text-align: center;
+        margin-left: 1rem;
+        padding-left: 2rem;
+
+       
+         
+         .grid{
+            align-items: center;
+            gap: 2rem;
+         }
+
+         .name{
+            margin-left: 12rem;
+           
+         }
+
+        img{
+            width: 30.8rem;
+            height: 40rem;
+            border-radius: 6px;
+        }
+
+        .menu-header{
+            font-size: 2.4rem;
+            font-weight: 700;
+            text-transform: capitalize;
+            margin-top: .5rem;
+            color: hsla(213, 56%, 21%, 1);
+        }
+
+        .date-div{
+           display: flex;
+           align-items: center;
+           gap: 2rem;
+           text-align: center;
+           margin-left: 3rem; 
+           margin-top: 1rem;
+
+            .user-div{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                font-size: 1.3rem;    
+                color: hsla(213, 8%, 46%, 1);
+            }
+        }
+
+       }
+}
+
+.section-food .container{
+
+        width: 129rem;
+        height: 20.5rem;
+        background-color: hsla(180, 24%, 93%, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3.2rem;
+       
+         
+       .food-header{
+        width: 19.6rem;
+        height: 5.76rem;
+        color: hsla(213, 56%, 21%, 1);
+        font-size: 2.4rem;
+        font-weight: 700;
+       }
+
+       .submit-div{
+           display: flex;
+           align-items: center;
+           gap: 0.8rem;
+           padding-left: 5rem;
+
+        .same-div{
+            width: 30rem;
+            height: 5rem;
+            background-color: hsla(0, 0%, 100%, 1);
+            color: hsla(0, 0%, 44%, 1);
+            font-size: 1.4rem;
+            font-weight: 500;
+            border-radius: 6px;
+            padding: 1.7rem;
+        }
+       }
+
+}
+
+.section-explore .container{
+    width: 128rem;
+    height: 74.4rem;
+   
+    .grid{
+        gap: 3.2rem;
+    }
+
+    .view-div{
+        width: 89rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header{
+            font-size: 2.6rem;
+            font-weight: 700;
+            color: hsla(213, 56%, 21%, 1);
+        }
+    }
+
+    .line-div{
+        width: 89rem;
+        height: 0.5rem;
+         margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        .red-line{
+            width: 4rem;
+            height: 0.5rem;
+            background-color: hsla(6, 86%, 69%, 1);
+            border: 1px solid hsla(6, 86%, 69%, 1);
+           
+        }
+
+        .white-line{
+            width: 85rem;
+            height: 0.5rem;
+            border: 1px solid hsla(0, 0%, 87%, 1);
+        }
+    }
+
+    .fav-div{
+       display: flex;
+       gap: 3.2rem;
+      
+
+        .apetizer-div{
+           margin-top: 3rem;
+           text-align: center;
+
+            .name{
+                margin-left: 25rem;
+                width: 9.51rem;
+                height: 2.6rem;
+                top: -1.3rem;
+            }
+            .header{
+                width: 48rem;
+                height: 7.1rem;
+                font-size: 2.8rem;
+                font-weight: 700;
+                color: hsla(213, 56%, 21%, 1);
+                margin-left: 5rem;
+            }
+
+            .date-div{
+                margin-left: 12rem;
+                margin-top: 1.5rem;
+            }
+
+            .para{
+                width: 52.2rem;
+                height: 8.4rem;
+                font-size: 1.6rem;
+                font-weight: 400;
+                color: hsla(211, 11%, 37%, 1);
+                margin-top: 1.5rem;
+                margin-left: 3rem;
+                line-height: 2.8rem;
+                text-transform: capitalize;
+            }
+        }
+        .breakfast-div{
+            margin-top: 3rem;
+            text-align: center;
+
+            img{
+                width: 27.8rem;
+                height: 20rem;
+            }
+            .name{
+                margin-left: 7.5rem;
+                width: 9.8rem;
+                height: 2.6rem;
+            }
+
+            .header{
+                font-size: 2rem;
+                font-weight: 700;
+                color: hsla(213, 56%, 21%, 1);
+               text-align: center;
+            }
+
+            .margin-top{
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    .jenny-div{
+      margin-top: 0;
+
+      .grid{
+        
+      }
+
+          img{
+            padding-left: 8rem;
+           }
+
+        .red-line{
+            width: 32.9rem;
+            height: 0.6rem;
+            background-color: hsla(6, 86%, 69%, 1);
+            border: 1px solid hsla(6, 86%, 69%, 1);
+        }
+        .top{
+              position: relative;
+            top: -8rem;
+            z-index: -1;
+        }
+
+        .jenny-detail{
+            width: 32.9rem;
+            height: 32.4rem;
+            background-color: hsla(60, 14%, 97%, 1);
+            text-align: center;
+            position: relative;
+            top: -8rem;
+            z-index: -1;
+
+           .header{
+             font-size: 2.4rem;
+             font-weight: 800;
+             color: hsla(213, 56%, 21%, 1);
+             padding-top: 8rem;
+           }
+
+           .para{
+            width: 26.8rem;
+            height: 8.4rem;
+            color: hsla(211, 11%, 37%, 1);
+            padding-left: 3rem;
+            padding-top: 1rem;
+            text-transform: capitalize;
+            line-height: 2.8rem;
+           }
+
+          .icons{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding-top: 2rem;
+            padding-left: 5.5rem;
+
+             .fa-brands{
+            width: 4rem;
+            height: 4rem;
+            background-color: hsla(6, 86%, 69%, 1);
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+           }
+          }
+
+        }  
+        
+        .heading{
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: hsla(213, 56%, 21%, 1);
+            margin-top: 1rem;
+        }
+
+        .line-div{
+        width: 32.9rem;
+        height: 0.5rem;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        .red-line{
+            width: 4rem;
+            height: 0.5rem;
+            background-color: hsla(6, 86%, 69%, 1);
+            border: 1px solid hsla(6, 86%, 69%, 1);    
+        }
+
+        .white-line{
+            width: 28.9rem;
+            height: 0.5rem;
+            border: 1px solid hsla(0, 0%, 87%, 1);
+        }
+    }
+
+    .tags{
+        width: 32.9rem;
+        height: 14.1rem;
+      margin-top: 1rem;
+     
+      .same-div{
+         display: flex; 
+         align-items: center;
+         gap: 1rem;
+         padding-top: 1rem;
+
+            .icons-tag{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                width: 16.2rem;
+                height: 4.4rem;
+                background-color: hsla(180, 24%, 93%, 1);
+                color: hsla(213, 56%, 21%, 1);
+                font-size: 1.4rem;
+                font-weight: 500;
+                 border-radius: 4px;
+
+               .fa-brands{
+                   font-size: 1.8rem;
+                   font-weight: 400;
+                }
+        }
+    }
+      }
+
+        
+
+    }
+
+
+}
+
+.section-categories{
+    width: 190rem;
+    height: 48.6rem;
+    background-color: hsla(180, 24%, 93%, 1);
+    text-align: center;
+   
+
+   .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+
+     .heading{
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: hsla(213, 56%, 21%, 1);
+       
+    }
+
+     .red-line{
+            width: 3.2rem;
+            height: 0.6rem;
+            background-color: hsla(6, 86%, 69%, 1);
+            border: 1px solid hsla(6, 86%, 69%, 1);
+            margin-top: 1rem; 
+        }
+
+        .para{
+            line-height: 2.8rem;
+            color: hsla(211, 11%, 37%, 1);
+            text-transform: capitalize;
+            margin-top: 1rem;
+        }
+        .images{
+          padding-top: 2rem;
+
+
+          img{
+            width: 18rem;
+            height: 18rem;
+            margin-left: 2rem;
+          }
+        }
+ 
+   }
+    
+
+}
+
+.section-weekly-recipes .container{
+   width: 132rem;
+
+    
+
+    .view-div{
+        width: 132rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header{
+            font-size: 2.6rem;
+            font-weight: 700;
+            color: hsla(213, 56%, 21%, 1);
+        }
+    }
+
+    .line-div{
+        
+        height: 0.5rem;
+         margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        .red-line{
+            width: 4rem;
+            height: 0.5rem;
+            background-color: hsla(6, 86%, 69%, 1);
+            border: 1px solid hsla(6, 86%, 69%, 1);
+           
+        }
+
+        .white-line{
+            width: 127rem;
+            height: 0.5rem;
+            border: 1px solid hsla(0, 0%, 87%, 1);
+        }
+    }
+
+    .design-div{
+      margin-top: 3rem;
+        width: 63rem;
+        height: 54rem;
+        
+
+      img{
+        width: 63rem;
+        height: 54rem;
+        border-radius: 5px;
+      }
+    }
+
+    .eating-div{
+        width: 66rem;
+        height: 57rem;
+        margin-top: 0.3rem;
+
+        .lunch-div{
+            display: flex;
+            align-items: center;
+            gap: 3.2rem;
+            margin-top: 2.9rem;
+
+            .name-1{
+                width: 9.5rem;
+                height: 2.6rem;
+                font-size: 1.3rem;
+            }
+
+            .name-2{
+                width: 8.2rem;
+                height: 2.6rem;
+
+            }
+
+            .heading{
+                font-size: 2.3rem;
+                font-weight: 700;
+                color: hsla(213, 56%, 21%, 1);   
+                margin-top: 1rem; 
+            }
+
+           .date-div{
+            margin-left: 0%;
+            font-size: 1.3rem;
+            margin-top: 2rem;
+
+            p{
+                font-size: 1.3rem;
+            }
+           
+            .fa-solid{
+                font-size: 1.3rem;
+            }
+             
+           }
+
+            .image{
+                img{
+                    width: 19rem;
+                    height: 16rem;
+                    border-radius: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+.section-free--recipe .container{
+    width: 129rem;
+    height: 20.5rem;
+}
+
+.section-healthy--recipes .container{
+       
+
+   .section-healthy{
+           width: 92rem;
+           height: 76.1rem;
+           margin-left: 9rem;
+
+       .header{
+            font-size: 2.6rem;
+            font-weight: 700;
+            color: hsla(213, 56%, 21%, 1);
+       }
+
+
+    .line-div{
+        width: 89rem;
+        height: 0.5rem;
+         margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        .red-line{
+            width: 4rem;
+            height: 0.5rem;
+            background-color: hsla(6, 86%, 69%, 1);
+            border: 1px solid hsla(6, 86%, 69%, 1);
+           
+        }
+
+        .white-line{
+            width: 85rem;
+            height: 0.5rem;
+            border: 1px solid hsla(0, 0%, 87%, 1);
+        }
+    }
+
+    .same-div{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+
+
+        .healthy-div{
+        width: 27.6rem;
+        height: 30.9rem;
+        text-align: center;
+        margin-top: 3rem;
+
+        .name{
+            margin-left: 10rem;
+        }
+
+        .heading{
+            font-size: 2rem;
+            font-weight: 700;
+            color: hsla(213, 56%, 21%, 1);
+        }
+
+        .user-div{
+            p{
+                font-size: 1.3rem;
+            }
+           
+        }
+    }
+
+     .name-1{
+           width: 9.8rem;
+           height: 2.6rem;
+            }
+
+      .name-2{
+           width: 9.5rem;
+           height: 2.6rem;
+            }
+    }
+   }
+
+   .popular-recipes{
+    
+
+    .line-div{
+        .red-line{
+           width: 4rem;
+           height: .5rem; 
+        }
+
+        .white-line{
+            width: 28.9rem;
+        }
+    }
+    .header{
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: hsla(213, 56%, 21%, 1);
+    }
+
+    .popular-div{
+        width: 32.9rem;
+        height: 11rem;
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+        margin-top: 3rem;
+
+        img{
+            width: 11rem;
+            height: 11rem;
+        }
+
+        .name-white{
+             width: 8.2rem;
+             height: 2.4rem;
+             background-color: transparent;
+             color: hsla(214, 17%, 76%, 1);
+             border: 1px solid hsla(214, 17%, 76%, 1);
+             border-radius: .3rem;
+             font-size: 1.3rem;
+        }
+
+        .heading{
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        .date-div{
+            margin-left: 0;
+
+            .fa-solid{
+                width: 1.6rem;
+                height: 1.6rem;
+            }
+
+            p{
+                font-size: 1.3rem;
+            }
+        }
+
+        .name-1{
+            width: 10rem;
+            height: 2.4rem;
+        }
+    }
+
+   }
+}
+
+.discover-book .container{
+    width: 129rem;
+    height: 23rem;
+
+}
+
+
+
+    

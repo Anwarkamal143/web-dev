@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+p,li,a{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: hsla(0, 16%, 94%, 1);
+    font-family: "Lexend", sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1
+h2
+h3
+h4
+h5
+h6{
+    font-family: "Lexend", sans-serif;
+}
+
+
+.container{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.section-navbar .container{
+
+    .bg-image{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        display: block;
+        z-index: -3;
+    }
+
+    .bg-color{
+        position: absolute;
+        width: 47%;
+        height: 100vh;
+        z-index: -2;
+        background: hsla(0, 0%, 23%, 0.4);
+        background: linear-gradient(96deg,hsla(0, 0%, 0%, 0) hsla(0, 0%, 0%, 0.5),hsla(0, 0%, 0%, 0.6) hsla(0, 0%, 0%, 0.6));
+    }
+
+    .bg-color-2{
+        position: absolute;
+        width: 60%;
+        height: 100vh;
+        z-index: -1;
+        background:hsla(0, 0%, 23%, 0.09);
+    }
+
+    .navbar{
+      width: 100%;
+      height: 8rem;
+      background-color: hsla(0, 0%, 23%, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+
+        .section-title{
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            padding-left: 3rem;
+
+
+            img{
+                width: 2.5rem;
+                height: 4.5rem;
+            }
+
+            .title-name{
+                font-size: 3.2rem;
+                font-weight: 400;
+                color: hsla(0, 16%, 94%, 1);
+                font-family: "Bebas Neue", sans-serif;
+            }
+        }
+
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 3.2rem;
+
+            li a{
+                font-size: 2.4rem;
+                font-weight: 400;
+            }
+
+            .red{
+                color: hsla(357, 92%, 47%, 1);
+            }
+        }
+
+        .kasra-div{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            .fa-magnifying-glass{
+                width: 4.4rem;
+                height: 4.4rem;
+                background-color: hsla(0, 0%, 50%, 1);
+                color: hsla(0, 16%, 94%, 1);
+                font-size: 2.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+            }
+        }
+    }
+      
+}
