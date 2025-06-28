@@ -1,0 +1,812 @@
+header{
+
+    .section-header{
+        width: 191rem;
+        height: 10rem;
+        background-color: hsla(214, 55%, 16%, 1);
+        padding-top: 2.5rem;
+
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+     
+        .zara-div{
+               display: flex;
+               align-items: center;
+               gap: 3.2rem;
+
+                .lines{
+
+            .white-line{
+                width: 3.3rem;
+                height: 0.2rem;
+                background-color: hsla(0, 0%, 100%, 1);
+                margin-top: .7rem;
+            }
+        }
+        }
+
+      .heading-div{
+           display: flex;
+           align-items: center;
+           gap: 2rem;
+
+          .search{
+                width: 42.5rem;
+                height: 4.5rem;
+                border: 1px solid hsla(213, 30%, 32%, 1);
+                border-radius: 3rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: hsla(213, 27%, 61%, 1);
+                padding: 1.5rem;
+               
+    
+                .fa-solid{
+                    font-size: 2rem;
+                    color: hsla(213, 30%, 32%, 1);
+                }
+            }
+
+             .icons{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 1.6rem;
+            font-weight: 700;
+            padding-right: 4rem;
+            color: hsla(60, 14%, 97%, 1);
+        
+        }
+      }
+
+
+       
+    }
+      .section-navbar{
+        width: 191rem;
+        height: 6rem;
+        background-color: hsla(213, 56%, 21%, 1);
+      
+        .container{
+              display: flex;
+            align-items: center;
+             justify-content: space-between;
+             padding-top: 1rem;
+        }
+       
+
+        .navbar{
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+            ;
+            
+
+            li,a{
+                font-size: 1.4rem;
+                font-weight: 700;
+                 color: hsla(0, 0%, 100%, 1);
+            }
+
+            .red{
+                color: hsla(6, 86%, 69%, 1);
+            }
+        }
+
+        .search-div{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            width: 25.5rem;
+            height: 3rem;
+
+
+           .user-div{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            .user{
+                font-size: 2.4rem;
+                color: hsla(0, 0%, 100%, 1);
+              }
+              p{
+                font-size: 1.4rem;
+                font-weight: 700;
+                 color: hsla(0, 0%, 100%, 1);
+                font-family: "Inter", sans-serif;
+              }
+           }
+        }
+
+       
+    }
+
+    .section-about{
+        display: flex;
+
+ 
+        .fighter-div{
+            width: 96rem;
+            height: 60rem;
+            background-color: hsla(213, 100%, 2%, 0.89);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 38rem;
+
+            .name-1{
+                width: 7.8rem;
+                height: 2.6rem;
+            }
+            .heading{
+                font-size: 2.6rem;
+                font-weight: 700;
+                color: hsla(0, 0%, 100%, 1);
+                padding-top: 2rem;
+            }
+
+            .date-div{
+                padding-top: 1rem;
+            }
+        }
+    }
+}
+
+main{
+
+    .categories{
+
+       .header{
+        display: flex;     
+         .name-1{
+            width: 24.9rem;
+            height: 4rem;
+            left: 1.5rem;
+            font-size: 2rem;
+            padding-top: 1rem;
+        }
+        .white-line{
+           width: 117.5rem;
+           height: 0.5rem;
+           border: 1px solid hsla(0, 0%, 87%, 1); 
+           margin-top: 1rem;
+        }
+       }
+
+       .images{
+        width: 132rem;
+        display: flex;
+        align-items: center;
+        gap: 7.2rem;
+        margin-top: 4rem;
+
+        img{
+            width: 18rem;
+            height: 18rem;
+        }
+       }
+    }
+
+    .logo-image{
+        img{
+            width: 130.4rem;
+            height: 12rem;
+            padding-left: 15rem;
+        }
+    }
+
+    .section-today--spotlight .container{
+
+        .spotlight-div{
+            width: 92rem;
+
+            .header{
+             display: flex;
+
+               .name-1{
+                width: 22.6rem;
+                height: 4rem;
+                font-size: 2rem;
+                padding-top: 1rem;
+               }
+
+               .white-line{
+                width: 67.8rem;
+                height: 0.5rem;
+                border: 1px solid hsla(0, 0%, 87%, 1);
+                margin-top: 1rem;
+               }
+            }
+
+           .gaming-div{
+                 display: flex;
+                 gap: 3.2rem;
+
+             .racing-div{
+               margin-top: 2rem;
+
+                .name-white{
+                    width: 7.2rem;
+                    height: 2.4rem;
+                    background-color: transparent;
+                    color: hsla(213, 8%, 46%, 1);
+                    border: 1px solid hsla(214, 17%, 76%, 1);
+                    font-size: 1.3rem;
+                    margin-top: 3rem;
+                }
+
+                .heading{
+                    font-size: 2.8rem;
+                    font-weight: 700;
+                    color: hsla(213, 56%, 21%, 1);
+                }
+
+                .date-div{
+                    margin-left: 0;
+                    margin-top: 1.5rem;
+                }
+            }
+
+            .action-div{
+                
+                .same-div{
+                    display: flex;
+                     gap: 4rem;
+                }
+                
+               
+               
+                .name-white{
+                    width: 7.2rem;
+                    height: 2.4rem;
+                    background-color: transparent;
+                    color: hsla(213, 8%, 46%, 1);
+                    border: 1px solid hsla(214, 17%, 76%, 1);
+                    font-size: 1.3rem;
+                    margin-top: 3rem;
+                }
+
+                .header{
+                    font-size: 2rem;
+                    font-weight: 700;
+                    color: hsla(213, 56%, 21%, 1);
+                    margin-top: .5rem;
+                }
+
+                .date-div{
+                    margin-left: 0;
+                    margin-top: 1.5rem;
+                }
+
+                .image{
+                    img{
+                        width: 14rem;
+                        height: 14rem;
+                        margin-top: 2rem;
+                    }
+                }
+
+            }
+           }
+        }
+
+        .follow-div{
+
+             .header{
+             display: flex;
+
+               .name-1{
+                width: 14.8rem;
+                height: 4rem;
+                font-size: 2rem;
+                padding-top: 1rem;
+               }
+
+               .white-line{
+                width: 19.6rem;
+                height: 0.5rem;
+                border: 1px solid hsla(0, 0%, 87%, 1);
+                margin-top: 1rem;
+               }
+
+              
+            }
+
+              .tags{
+                  width: 32.9rem;
+                   height: 14.1rem;
+                  margin-top: 1rem;
+     
+                .same-div{
+                  display: flex; 
+                   align-items: center;
+                    gap: 1rem;
+                     padding-top: 1rem;
+
+            .icons-tag{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                width: 16.2rem;
+                height: 4.4rem;
+                background-color: hsla(180, 24%, 93%, 1);
+                color: hsla(213, 56%, 21%, 1);
+                font-size: 1.4rem;
+                font-weight: 500;
+                border-radius: 4px;
+
+               .fa-brands{
+                   font-size: 1.8rem;
+                   font-weight: 400;
+                }
+        }
+    }
+            }
+
+            .daily-news--div{
+                width: 32.9rem;
+                height: 26.9rem;
+                background-color: hsla(213, 56%, 21%, 1);
+                color: hsla(0, 0%, 100%, 1);
+                margin-top: 6rem;
+                padding-top: 5rem;
+
+                .header{
+                    color: hsla(0, 0%, 100%, 1);
+                    font-size: 2.4rem;
+                    font-weight: 800;
+                    padding-left: 5rem;
+
+                }
+
+                .para{
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    color: hsla(0, 0%, 100%, 1);
+                    text-transform: capitalize;
+                    padding-top: 2rem;
+                    text-align: center;
+                    line-height: 2.8rem;
+                }
+
+                .red-div{
+                    width: 26rem;
+                    height: 5rem;
+                    background-color: hsla(6, 86%, 69%, 1);
+                    margin: 3rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 2rem;
+                    border-radius: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .section-popular--news .container{
+
+       
+
+        .popular-div{
+
+            .header{
+             display: flex;
+
+               .name-1{
+                width: 22.9rem;
+                height: 4rem;
+                font-size: 2rem;
+                padding-top: 1rem;
+               }
+
+               .white-line{
+                width: 66rem;
+                height: 0.5rem;
+                border: 1px solid hsla(0, 0%, 87%, 1);
+                margin-top: 1rem;
+               }
+
+              
+            }
+
+            .racing{
+               margin-top: 3rem;
+
+                img{
+                    width: 44rem;
+                    height: 30rem;
+                }
+            
+                .padding-l{
+                    padding-left: 2rem;
+                }
+            }
+
+            .story-div{
+                margin-top: 1rem;
+
+                .padding-l{
+                    margin-left: .4rem;
+                }
+            }
+        }
+
+        .recent-div{
+          margin-left: 3rem;
+
+        .header{
+             display: flex;
+
+               .name-1{
+                width: 14.8rem;
+                height: 4rem;
+                font-size: 2rem;
+                padding-top: 1rem;
+               }
+
+               .white-line{
+                width: 19.6rem;
+                height: 0.5rem;
+                border: 1px solid hsla(0, 0%, 87%, 1);
+                margin-top: 1rem;
+               }
+
+              
+        }
+
+        .post-div{
+            width: 33rem;
+            height: 11rem;
+            display: flex;
+            gap: 3.2rem;
+            margin-top: 1.5rem;
+
+
+             .name-white{
+                    width: 7.2rem;
+                    height: 2.4rem;
+                    background-color: transparent;
+                    color: hsla(213, 8%, 46%, 1);
+                    border: 1px solid hsla(214, 17%, 76%, 1);
+                    font-size: 1.3rem;
+                    padding-left: 1rem;
+                    padding-top: .5rem;
+            }
+
+            .heading{
+                font-size: 1.8rem;
+                font-weight: 700;
+                color: hsla(213, 56%, 21%, 1);
+                margin-top: 1rem;
+            }
+            .date-div{
+                margin-left: 0;
+            }
+
+            .space{
+                width: 9.953rem;
+                height: 2.4rem;
+            }
+        }
+      .mtop{
+         margin-top: 3rem;
+      }
+        
+        }
+    }
+
+    .logo-image-1{
+        
+        img{
+            width: 129rem;
+            height: 20.5rem;
+        }
+    }
+
+    .section-trending--news{
+        width: 192rem;
+        height: 82.6rem;
+        background-color: rgb(23, 39, 58);
+
+        .margin-top{
+            padding-top: 10rem;
+        }
+
+       
+
+     .heading{
+        display: flex;
+        align-items: center;
+
+          .name-1{
+           width: 28.3rem;
+           height: 4rem;
+           font-size: 2rem;
+           padding-top: 1rem;
+           top: 0%;
+       }
+
+       .white-line{
+           width:  88rem;
+           height: 0.5rem;
+           border: 1px solid hsla(215, 31%, 21%, 1);
+       }
+
+       .view-div{
+        width: 12.1rem;
+        height: 3.6rem;
+        border: 1px solid hsla(0, 0%, 100%, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+
+        .para{
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: hsla(0, 0%, 100%, 1);
+        }
+
+        img{
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+       }
+     }
+
+     .fighter-div{
+        width: 63rem;
+        height: 54.6rem;
+        margin-top: 3rem;
+
+        .name-1{
+            width: 7.8rem;
+            height: 2.6rem;
+            border: 1px solid hsla(0, 0%, 100%, 0.3);
+            border-radius: 0.3rem;
+            font-size: 1.3rem;
+            color: hsla(0, 0%, 100%, 1);
+            padding: .7rem;
+            margin-top: 1rem;
+
+        }
+
+        .heading{
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: hsla(0, 0%, 100%, 1);
+            line-height: 3.6rem;
+            margin-top: 1rem;
+        }
+
+        .date-div{
+            margin-left: 0;
+            margin-top: 1rem;
+        }
+     }
+
+     .middle-line{
+        width: 1px;
+        height: 53.9rem;
+        background-color: hsla(215, 31%, 21%, 1);
+     }
+
+     .animation{
+        width: 59.5rem;
+        height: 15.9rem;
+        display: flex;
+        align-items: center;
+        gap: 3.2rem;
+        margin-top: 1.8rem;
+        
+
+        .para{
+          
+            .heading-1{
+                font-size: 2.2rem;
+                font-weight: 700;
+                color: hsla(0, 0%, 100%, 1);
+                margin-top: 1.5rem;
+            }
+
+            .names-1{
+                  width: 9.7rem;
+            height: 2.6rem;
+            background-color: hsla(0, 0%, 100%, 0.3);
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: hsla(0, 0%, 100%, 1);
+            border-radius: 0.3rem;
+            padding: .5rem;
+            padding-left: 1rem;
+            }
+
+              .names-2{
+               width: 7.2rem;
+                height: 2.6rem;
+            background-color: hsla(0, 0%, 100%, 0.3);
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: hsla(0, 0%, 100%, 1);
+            border-radius: 0.3rem;
+            padding: .5rem;
+            padding-left: 1rem;
+               }
+
+            .date-div{
+                margin-left: 0;
+                margin-top: 2rem;
+            }
+        }
+     }
+     .martop{
+        margin-top: 3rem;
+     }
+    
+    }
+
+    .section-weekly--news{
+
+        .grid{
+            gap: 4.2rem;
+        }
+
+        .weekly-div{
+            width: 95rem;
+            height: 136rem;
+            margin-top: 3rem;
+
+            .header{
+             display: flex;
+
+               .name-1{
+                width: 22.6rem;
+                height: 4rem;
+                font-size: 2rem;
+                padding-top: .7rem;
+               }
+
+               .white-line{
+                width: 75.8rem;
+                height: 0.5rem;
+                border: 1px solid hsla(0, 0%, 87%, 1);
+                margin-top: 1.7rem;
+               }
+            }
+
+            .fight-div{
+               display: flex;
+               gap: 4.2rem;
+               margin-top: 1.5rem;
+
+               .name{
+                margin-top: 1.5rem;
+                width: 7.8rem;
+               }
+
+               .heading{
+                font-size: 2.2rem;
+                font-weight: 700;
+                line-height: 3rem;
+                margin-top: 1rem;
+               }
+
+               .date-div{
+                margin-left: 0;
+                margin-top: 1.5rem;
+               }
+
+               .para{
+                width: 40.5rem;
+                height: 8.4rem;
+                line-height: 2.8rem;
+                color: hsla(211, 11%, 37%, 1);
+                margin-top: 1rem;
+               }
+               button{
+                border: none;
+                 width: 13.8rem;
+                    height: 3.6rem;
+                    background-color: transparent;
+                      border: 1px solid hsla(0, 0%, 81%, 1);
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      gap: 1rem;
+                      margin-top: 2rem;
+
+                .btn-white{
+                    color: hsla(213, 56%, 21%, 1);
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                   
+                }
+               }
+            }
+
+            .mtop{
+                margin-top: 2rem;
+            }
+
+        }
+
+        
+            .hot-news--div{
+                  margin-left: 5rem;
+            
+                .news-header{
+                    display: flex;
+                    align-items: center;
+
+                    .name{
+                        width: 14.9rem;
+                        height: 4rem;
+                        font-size: 2rem;
+                        margin-top: 4rem;
+                        padding-top: 1rem;
+                    }
+
+            .white-line{
+                width: 19.6rem;
+                height: 0.5rem;
+                border: 1px solid hsla(0, 0%, 87%, 1);
+                margin-top: 2rem;
+               }
+
+                }
+                img{
+                    margin-top: 3rem;
+                }
+                .mtop{
+                    margin-top: 5rem;
+                }
+
+                .para-div{
+                    margin-top: 2rem;
+
+                     .name-white{
+                    width: 7.9rem;
+                    height: 2.4rem;
+                    background-color: transparent;
+                    color: hsla(213, 8%, 46%, 1);
+                    border: 2px solid hsla(214, 17%, 76%, 1);
+                    font-size: 1.3rem;
+                    padding-left: 1rem;
+                    padding-top: .3rem;
+                    
+            }
+            .heading{
+                font-size: 2rem;
+                font-weight: 700;
+                color: hsla(213, 56%, 21%, 1);
+                margin-top: 1rem;
+            }
+            .date-div{
+                margin-left: 0;
+                margin-top: 1rem;
+            }
+                }
+       
+            }
+
+    }
+
+}
+
+footer{
+
+   hr{
+    margin-top: 8rem;
+    width: 100%;
+    background-color: hsla(213, 33%, 19%, 1);
+   }
+    }
