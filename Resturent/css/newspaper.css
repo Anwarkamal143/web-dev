@@ -1,0 +1,931 @@
+      button{
+            width: 13.8rem;
+            height: 3.6rem;
+            background-color: transparent;
+            border: 1px solid hsla(213, 56%, 21%, 1);
+            color: hsla(213, 56%, 21%, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+            border-radius: .3rem;
+
+                .btn-white{
+                    color: hsla(213, 56%, 21%, 1);
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                   
+                }
+ }
+
+
+.section-navbar{
+
+    .top-header{
+        width: 100%;
+        height: 5rem;
+        background-color: hsla(213, 56%, 21%, 1);
+
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+       .trending-div{
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+        padding-top: 1rem;
+
+         .para-1{
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: hsla(0, 0%, 100%, 1);
+            line-height: 2.2rem;
+        }
+        .para{
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            color: hsla(214, 29%, 83%, 1);
+        }
+       }
+       .icons{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        margin-top: 1.6rem;
+
+        .fa-brands{
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: white;
+        }
+    }
+    }
+
+    .middle-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 3rem;
+
+        .images{
+            display: flex;
+            align-items: center;
+
+            .user-div{
+                fa-solid{
+                    font-size: 1.4rem;
+                }
+                p{
+                    font-size: 1.4rem;
+                }
+            
+            }
+
+        }
+        .user-div-1{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            .fa-solid{
+                font-size: 2.2rem;
+                color: hsla(211, 11%, 37%, 1);
+            }
+            p{
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: hsla(211, 11%, 37%, 1);
+            }
+        }
+        .buton{
+           padding: 1.1rem 3rem;
+           background-color:  hsla(6, 86%, 69%, 1);
+           border: 1px solid hsla(6, 86%, 69%, 1);
+           color: hsla(0, 0%, 100%, 1);
+           font-size: 1.4rem;
+           font-weight: 700;
+            border-radius: .3rem;
+        }
+    }
+    .last-top--header{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        margin-top: 3rem;
+
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+               .navbar{
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+            
+            li,a{
+                font-size: 1.6rem;
+                font-weight: 700;
+                 color:hsla(213, 56%, 21%, 1);
+            }
+
+            .red{
+                color: hsla(6, 86%, 69%, 1);
+            }
+                }
+                .search-div-1{
+          width: 20rem;
+          height: 2.8rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .search-header{
+            font-size: 1.4rem;
+            color: hsla(211, 11%, 37%, 1);
+          }
+
+          .fa-solid{
+            font-size: 2.4rem;
+            color: hsla(213, 8%, 46%, 1);
+          }
+                  }
+        }
+    }
+   
+}
+
+.section-about{
+    padding-top: 5rem;
+    
+
+    .section-politics{
+       
+        .section-div--1{
+        width: 30rem;
+        border-right: 1px solid hsla(0, 0%, 87%, 1);
+         height: 62rem;
+   
+
+    .bussines-para{
+      
+        
+        .header{
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: hsla(213, 56%, 21%, 1);
+            padding-top: .3rem;
+        }
+
+       
+    }
+
+    hr{
+        width: 28.9rem;
+        margin-top: 2rem;
+        background-color: hsla(0, 0%, 85%, 1);
+    }
+    .mtop{
+        margin-top: 2rem;
+    }
+         }
+
+      .section-div--2{
+    width: 63.5rem;
+    text-align: center;
+    padding-left: 1rem;
+   
+    
+
+
+    .white-name{
+        width: 8.3rem;
+        height: 2.4rem;
+        border: 1px solid hsla(214, 17%, 76%, 1);
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: hsla(214, 17%, 76%, 1);
+        margin: 0 auto;
+        margin-top: 1rem;
+        border-radius: .3rem;
+        padding-top: .2rem;
+    }
+    .heading{
+        font-size: 2.8rem;
+        font-weight: 800;
+        color: hsla(213, 56%, 21%, 1)   ;
+        line-height: 3.3rem;
+        padding-top: 1.4rem;
+    }
+    .date-div{
+        padding-left: 13.5rem;
+        
+    }
+    .para{
+        font-size: 1.6rem;
+        color: hsla(211, 11%, 37%, 1);
+        padding-top: 1.5rem;
+    }
+        }
+        .section-logo--image{
+            padding-top: 5rem;
+        }
+           .politic-div{
+
+      .line-header{
+         font-size: 2.2rem;
+         font-weight: 700;
+         color: hsla(213, 56%, 21%, 1);
+         padding-right: 1rem;
+      }
+  
+      .politic-div--1{
+        width: 65.3rem;
+        padding-top: 3rem;
+        display: flex;
+        gap: 2rem;
+
+       
+        .politic-para{
+            padding-top: 3rem;
+
+            .header{
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: hsla(213, 8%, 46%, 1);
+            }
+            .heading{
+                font-size: 2rem;
+                font-weight: 800;
+                color: hsla(213, 56%, 21%, 1);
+                padding-top: 1rem; 
+            }
+            .para{
+                font-size: 1.6rem;
+                font-weight: 400;
+                color: hsla(211, 11%, 37%, 1);
+                padding-top: 1.5rem;
+            }
+        }
+      }
+      .politic-div--2{
+        border-left: 1px solid hsla(0, 0%, 87%, 1);
+        height: 29.5rem;
+        margin-top: 3rem;
+
+        .para-div{
+            padding-left: 2rem;
+
+            .heading{
+                 font-size: 1.8rem;
+                 font-weight: 600;
+                 color: hsla(213, 56%, 21%, 1);
+                 padding-top: 0;
+            }
+            .date-div{
+
+                .fa-solid{
+                    font-size: 1.3rem;
+                }
+                p{
+                    font-size: 1.3rem;
+                    color: hsla(213, 8%, 46%, 1);   
+                }
+            }
+            hr{
+                margin-top: 2rem;
+            }
+        }
+        .mtop{
+            margin-top: 1.5rem;
+        }
+      }
+
+    
+   }
+     .section-hot--spots{
+        padding-top: 6rem;
+
+        .line-div{
+
+            .line-header{
+                font-size: 2.2rem;
+                font-weight: 700;
+                color: hsla(213, 56%, 21%, 1);  
+                padding-right: 1rem;
+            }
+            .white-line{
+                width: 68.6rem;
+            }
+        }
+        .sport-div{
+            margin-top: 3rem;
+            
+            .para-div{
+                width: 29.3rem;
+                padding-left: 1.3rem;
+            }
+            .para{
+
+                .para-header{
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    color: hsla(213, 8%, 46%, 1);
+                    padding-top: 1rem;
+                }
+                .heading{
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                    color: hsla(213, 56%, 21%, 1);
+                    padding-top: 1rem;
+                    line-height: 2.5rem;
+                }
+                .date-div{
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+
+                    .fa-solid{
+                        font-size: 1.3rem;
+                        color: hsla(213, 8%, 46%, 1);
+                    }
+                    p{
+                        font-size: 1.3rem;
+                        color: hsla(213, 8%, 46%, 1);
+                    }
+                }
+            }
+    
+
+        }
+        .left-border{ 
+            border-left: 1px solid hsla(0, 0%, 87%, 1);
+            height: 31.6rem;
+           
+            
+            
+        } 
+      }
+       
+   }
+   .heading{
+          font-size: 1.3rem;
+          font-weight: 600;
+          color: hsla(213, 8%, 46%, 1);
+          padding-top: 1rem;
+        }
+
+   .section-top--stories{
+    padding-left: 2rem;
+    border-left: 1px solid hsla(0, 0%, 87%, 1);
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+   
+    .line-div{
+        margin-top: 0;
+        .red-line{
+            width: 4rem;
+        }
+        .white-line{
+            width: 25rem;
+        }
+        
+    }
+    
+    .top-stories-header{
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: hsla(213, 56%, 21%, 1);
+        padding-top: 1rem;
+    }
+    .same-div{
+        width: 30rem;
+        padding-top: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+      .para-div{
+
+          .header{
+            font-size: 1.7rem;
+            font-weight: 600;
+            color: hsla(213, 56%, 21%, 1);
+            padding-top: .3rem;
+        }
+        .date-div{
+
+            .user-div{
+                .fa-solid{
+                    font-size: 1.3rem;
+                    color: hsla(213, 8%, 46%, 1);
+                }
+                p{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+      }
+    }
+    hr{
+        width: 30rem;
+        margin-top: 2rem;
+        background-color: hsla(0, 0%, 87%, 1); 
+    }
+    .section-sidebar--image{
+
+     padding-top: 7rem;
+    }
+    .section-top{
+        padding-top: 4rem;
+    }
+     .dark-div{
+        width: 29rem;
+        height: 10.8rem;
+        background-color: hsla(60, 14%, 97%, 1);
+        margin-top: .5rem;
+
+        
+
+            .heading-div{
+                display: flex;
+                gap: 2rem;
+                padding-top: .5rem;
+                 padding-left: 2rem;
+
+               .number{
+                  font-size: 2.6rem;
+                  font-weight: 600;
+                  color: hsla(0, 0%, 76%, 1);
+                  padding-top: .8rem;
+               }
+               .heading{
+                font-size: 1.7rem;
+                font-weight: 600;
+                color: hsla(213, 56%, 21%, 1);
+               }
+               .date-div{
+                .fa-solid{
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                }
+                p{
+                    font-size: 1.3rem;
+                }
+               }
+             
+            }
+        
+    }
+    .mtop{
+        margin-top: 2.5rem;
+    }
+
+   
+
+   }
+
+}
+
+.section-logo--image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7rem;
+    margin-right: 7rem;
+}
+
+.section-editor--pick{
+    width: 100%;
+    height: 60.2rem;
+    background-color: hsla(0, 0%, 98%, 1);
+    margin-top: 5rem;
+    padding-top: 10rem;
+
+    .container{
+        width: 132rem;
+    }
+        
+
+     .para-div{
+        width: 128rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .heading{
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: hsla(213, 56%, 21%, 1);
+        }
+
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+
+            .fa-solid{
+                width: 3.6rem;
+                height: 3.6rem;
+                border: 1px solid hsla(0, 0%, 81%, 1);
+                color: hsla(6, 86%, 69%, 1);
+                font-size: 1.4rem;
+                font-weight: 900;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+     .line-div{
+        height: 0.5rem;
+         margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        width: 128rem;
+        
+
+        .red-line{
+            display: inline-block;
+            width: 5%;
+            height: 0.5rem;
+            background-color: hsla(6, 86%, 69%, 1);
+            position: relative;
+            
+            &::after{
+                content: "";
+                position: absolute;
+                display: block;
+                width: .5rem;
+                top: 50%;
+                bottom: 0%;
+                height: 0.7rem;
+                left: 95%;
+                transform: translate(0%,-50%)  skew(-45deg);
+                background-color: white;
+
+                
+            }
+           
+        }
+
+        .white-line{
+            display: inline-block;
+            height: 0.5rem;
+            background-color: hsla(0, 0%, 87%, 1);
+        }
+     }
+        .sport-div{
+            margin-top: 3rem; 
+            padding-left: 1.3rem;
+            width: 29.3rem;
+           
+            
+            .para{
+
+                .para-header{
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    color: hsla(213, 8%, 46%, 1);
+                    padding-top: 2rem;
+                }
+                .heading{
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                    color: hsla(213, 56%, 21%, 1);
+                    padding-top: .7rem;
+                    line-height: 2.5rem;
+                }
+                .date-div{
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+
+                    .fa-solid{
+                        font-size: 1.3rem;
+                        color: hsla(213, 8%, 46%, 1);
+                    }
+                    p{
+                        font-size: 1.3rem;
+                        color: hsla(213, 8%, 46%, 1);
+                    }
+                }
+            }
+    
+
+        }
+        .left-border{ 
+            border-left: 1px solid hsla(0, 0%, 87%, 1);
+             height: 36.6rem;
+           
+            
+            
+        }
+}
+
+.section-last--div{
+  padding-top: 6rem;
+
+.last-div--1{
+    border-right: 1px solid hsla(0, 0%, 87%, 1);
+    padding-right: 2rem;
+    height: 136.4rem;
+    .header{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: hsla(213, 56%, 21%, 1);
+    
+      }
+
+     .line-div{
+
+    .white-line{
+        width: 92rem;
+    }
+      }
+   
+    .sports-div{
+        padding-top: 3rem;
+         display: flex;
+         gap: 2rem;
+
+        .politic-para{
+            padding-top: 3rem;
+
+            .header{
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: hsla(213, 8%, 46%, 1);
+            }
+            .heading{
+                font-size: 2rem;
+                font-weight: 800;
+                color: hsla(213, 56%, 21%, 1);
+                padding-top: 1rem; 
+            }
+            .para{
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 2.8rem;
+                color: hsla(211, 11%, 37%, 1);
+                padding-top: 1.5rem;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .bottom-div{
+        padding-top: 3rem;
+       
+        .new-div{
+            display: flex;
+            
+
+            .heading{
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: hsla(213, 8%, 46%, 1);
+            }
+            .header{
+                font-size: 1.7rem;
+                font-weight: 600;
+                color: hsla(213, 56%, 21%, 1);
+            }
+            .date-div{
+                .user-div{
+                    .fa-solid{
+                        font-size: 1.3rem;
+                        color: hsla(213, 8%, 46%, 1);
+                    }
+                    p{
+                        font-size: 1.3rem;
+                        color: hsla(213, 8%, 46%, 1);
+                    }
+                }
+            }
+
+        
+    }
+    }
+    .section-logo--image{
+        width: 96rem;
+    }
+
+   .swimming-div{
+    padding-top: 5rem;
+
+    .swimming-div--1{
+         width: 63rem;
+       
+        .header{
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: hsla(213, 8%, 46%, 1);
+            padding-top: 1rem;
+            text-transform: uppercase;
+        }
+        .heading{
+            font-size: 2.4rem;
+            font-weight: 700;
+            color: hsla(213, 56%, 21%, 1);
+            padding-top: .7rem;
+            line-height: 3.1rem;
+        }
+    }
+    .swimming-div--2{
+     padding-left: 3.4rem;
+        .div-1{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+
+            .header{
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: hsla(213, 8%, 46%, 1);
+            }
+            .heading{
+                font-size: 1.7rem;
+                font-weight: 600;
+                color: hsla(213, 56%, 21%, 1); 
+                padding-top: .3rem;
+            }
+            .date-div{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                .fa-solid{
+                    font-size: 1.3rem;
+                    color: hsla(213, 8%, 46%, 1);
+                }
+                p{
+                    font-size: 1.3rem;
+                    color: hsla(213, 8%, 46%, 1);
+                }
+            }
+        }
+        .mtop{
+            padding-top: 3rem;
+        }
+    }
+   }
+      
+
+        
+}
+
+.section-tech--div{
+        width: 32.9rem;
+        margin-left: 2rem;
+           
+
+         .daily-news--div{
+                width: 32.9rem;
+                height: 37.9rem;
+                background-color: hsla(213, 56%, 21%, 1);
+                color: hsla(0, 0%, 100%, 1);
+                padding-top: 5rem;
+              
+
+                .header{
+                    color: hsla(0, 0%, 100%, 1);
+                    font-size: 2.4rem;
+                    font-weight: 800;
+                    padding-left: 5rem;
+
+                }
+
+                .para{
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    color: hsla(0, 0%, 100%, 1);
+                    text-transform: capitalize;
+                    padding-top: 2rem;
+                    text-align: center;
+                    line-height: 2.8rem;
+                }
+
+                .red-div{
+                    width: 26rem;
+                    height: 5rem;
+                    background-color: hsla(6, 86%, 69%, 1);
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 2rem;
+                    margin-top: 2rem;
+                    border-radius: 0.5rem;
+                }
+                .white-div{
+                    background-color: hsla(0, 0%, 100%, 1);
+                    color: hsla(213, 8%, 46%, 1);
+                }
+
+                .agree-div{
+                  display: flex;
+                  align-items: center;
+                  gap: 1rem;
+                  margin-left: 3.3rem;
+                  padding-top: 1.5rem;
+
+                    .circle{
+                        width: 1.8rem;
+                        aspect-ratio: 1;
+                      background-color: hsla(213, 56%, 21%, 1);
+                      border: 1px solid hsla(213, 37%, 42%, 1);
+                      border-radius: 1px;
+                    }
+
+                    .para-1{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        color: hsla(213, 19%, 54%, 1);
+                        line-height: 2.4rem;
+                    }
+                }
+              
+            }
+
+           .header{   
+              .heading{
+                font-size: 2.2rem;
+                font-weight: 700;
+                color: hsla(213, 56%, 21%, 1);
+                padding-top: 1rem;
+                padding-bottom: 2rem;
+              
+              }
+               .red-line{
+                width: 4rem;
+            }
+
+            
+
+              
+    }
+  
+
+    .popular-div{
+        margin-top: 3rem;
+
+        
+
+       .para-div{
+            margin-top: 2rem;
+
+            .name-white{
+                    width: 7.9rem;
+                    height: 2.4rem;
+                    background-color: transparent;
+                    color: hsla(213, 8%, 46%, 1);
+                    font-size: 1.3rem;
+                    padding-top: .3rem;
+                    font-weight: 600;
+                    font-size: 1.3rem;          
+            }
+
+            .heading{
+                font-size: 1.8rem;
+                font-weight: 700;
+                color: hsla(213, 56%, 21%, 1);
+                padding-top: .5rem;
+            }
+
+            .date-div{
+                margin-left: 0;
+                margin-top: 1rem;
+            }
+        }
+        hr{
+           width: 29rem;
+           background-color: hsla(0, 0%, 87%, 1);
+           margin-top: 2rem; 
+        }
+        
+        .matop{
+           margin-top: 2rem;
+        }
+
+        .mrtop{
+            margin-top: 3rem;
+        }
+    }
+    }
+
+    .mrtop{
+            margin-top: 6rem;
+        }
+}
+
+.subscribe-div{
+    margin-top: 7rem;
+}
+
+
+
