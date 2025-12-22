@@ -1,0 +1,97 @@
+.section-about{
+    width: 130.5rem;
+    height: 78.1rem;
+    margin-top: 7rem;
+
+    .grid{
+        gap: 15.4rem;
+    }
+
+
+    form{
+    width: 37.1rem;
+    height: 5.3rem;
+    margin-top: 12rem;
+
+
+    .header{
+        width: 33.9rem;
+        height: 3rem;
+         font-size: 3.5rem;
+         font-weight: 500;
+         line-height: 3rem;
+         color: hsla(0, 0%, 0%, 1);
+    }
+    .para{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: hsla(0, 0%, 0%, 1);
+        line-height: 2.4rem;
+        padding-top: 2rem;
+    }
+    input{
+        width: 37rem;
+        height: 3.2rem;
+        margin-top: 2rem;
+        border: none;
+        border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: hsla(0, 0%, 0%, 1);
+        line-height: 2.4rem;
+        outline: none;
+    }
+    .btn-div{
+
+
+       button{
+        border: none;
+          width: 37.1rem;
+         height: 5.6rem;
+         background-color: hsla(0, 68%, 56%, 1);
+         color: hsla(0, 0%, 98%, 1);
+         font-size: 1.6rem;
+         font-weight: 500;
+        border-radius: 0.3rem;
+        margin-top: 4rem;
+       }
+    }
+    .sign-btn{
+        width: 37.1rem;
+        height: 5.6rem;
+        margin-top: 2.4rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: hsla(0, 0%, 0%, 1);
+        line-height: 2.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        border: 0.3rem solid hsla(0, 0%, 0%, 0.4);
+
+     
+    }
+    .bottom-para{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: hsla(0, 0%, 0%, 1);
+        line-height: 2.1rem;
+        margin-top: 2.4rem;
+        text-align: center;
+
+     .bold-word{
+        width: 4.7rem;
+        color: hsla(0, 0%, 0%, 1);
+        padding-left: 1rem;
+        font-weight: 500;
+     }
+        
+    }
+
+    }
+}
+
+footer{
+    margin-top: 15rem;
+}

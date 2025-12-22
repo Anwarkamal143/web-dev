@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-main: #18122b;
+    --bg-primary: #ECF2FF;
+    }
+
+
+html{
+    font-size: 62.5%;
+    font-family: "Lexend Deca Light";
+}
+
+body{
+    background-color: var(--bg-primary);
+}
+
+a,li{
+    margin: 0;
+    font-size: 1.8rem;
+    color: var(--bg-primary);
+}
+
+header{
+    background-color: var(--bg-main);
+    height: 6rem;
+    color: var(--bg-primary);
+    display: grid;
+    place-items: center;
+}
+
+.container{
+      width: 80%;
+    height: 10rem;
+}
+
+.container ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+.container ul li{
+    line-height: 6rem;
+    position: relative;
+    cursor: pointer;
+    padding: 0 1rem;
+
+    &:hover{
+        background-color: var(--bg-primary);
+        color: var(--bg-main);
+        transition: all 0.3s linear;
+    }
+}
+
+.container .drop-down{
+    position: absolute;
+    left: 0%;
+    height: 60vh;
+    min-width: 100rem;
+    display: flex;
+    flex-direction: column;
+     background-color: var(--bg-main);
+     padding: 2rem 0;
+     gap: 2rem;
+     top: 15rem;
+     visibility: hidden;
+     opacity: 1;
+     transition: all 0.3s linear;
+
+     .shoes-dropdown {
+        position: relative;
+     }
+}
+
+.container ul li:hover .drop-down{
+    visibility: visible;
+    opacity: 1;
+    top: 6rem;
+    
+}
+
+.container .drop-down li{
+    height: 3rem;
+    line-height: 3rem;
+
+}

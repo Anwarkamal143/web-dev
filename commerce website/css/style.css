@@ -1,0 +1,973 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: "Open Sans", serif;
+}
+
+p,
+li,
+a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.para {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.grid {
+  display: grid;
+}
+.grid-two--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-four--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-five--cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-six--cols {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.section-gap {
+  padding-top: 15rem;
+}
+
+.btn {
+  width: 20rem;
+  height: 4rem;
+  background-color: hsla(0, 68%, 56%, 1);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: hsla(0, 0%, 98%, 1);
+  cursor: pointer;
+}
+
+.container {
+  max-width: 117rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  .section-heading {
+    width: 100%;
+    height: 4.8rem;
+    background-color: hsla(0, 0%, 0%, 1);
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+
+      .top-header {
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 86rem;
+
+        .top-div {
+          display: inline-flex;
+          padding-top: 1rem;
+          gap: 1.5rem;
+
+          .para {
+            color: hsla(0, 0%, 98%, 1);
+          }
+          .bold-word {
+            color: hsla(0, 0%, 98%, 1);
+            text-decoration: underline;
+          }
+        }
+        .second-div {
+          display: block;
+          padding-top: 1rem;
+          gap: 1.5rem;
+
+          .flex-top {
+            .bold-word {
+              color: white;
+            }
+
+            .fa-solid {
+              background-color: black;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .navigation-div .container {
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title-header {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: hsla(0, 0%, 0%, 1);
+    }
+    .navbar ul {
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+      padding-left: 2rem;
+
+      li a {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: hsla(0, 0%, 0%, 1);
+      }
+      .underline {
+        border-bottom: 0.1rem solid hsla(0, 0%, 0%, 1);
+      }
+    }
+    .looking-div {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      .search-div {
+        width: 24.3rem;
+        height: 3.8rem;
+        background-color: hsla(0, 0%, 96%, 1);
+        border-radius: 0.3rem;
+        display: flex;
+        place-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+        input {
+          font-size: 1.2rem;
+          font-weight: 400;
+          color: hsla(0, 0%, 0%, 1);
+          padding: 0.7rem;
+          border: none;
+          background-color: transparent;
+          outline: none;
+        }
+        .fa-solid {
+          font-size: 1.6rem;
+          color: hsla(0, 0%, 0%, 1);
+          padding-left: 1.5rem;
+        }
+      }
+
+      .icon-images--div {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  hr {
+    margin-top: 3rem;
+    background-color: hsla(0, 0%, 0%, 1);
+  }
+}
+
+.section-about {
+  display: flex;
+
+  hr {
+    width: 1px;
+    height: 100;
+    margin-left: 2rem;
+  }
+
+  .section-para {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: hsla(0, 0%, 0%, 1);
+    padding-top: 2.4rem;
+
+    ul li {
+      padding-top: 1.6rem;
+    }
+
+    .flex-div {
+      width: 21.7rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  .about-div {
+    width: 89.2rem;
+    height: 34.4rem;
+    background-color: hsla(0, 0%, 0%, 1);
+    margin-top: 4rem;
+    margin-left: 4.7rem;
+    color: white;
+
+    .grid {
+      padding: 5rem;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .about-logo--div {
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        .fa-brands {
+          font-size: 4rem;
+          font-weight: 400;
+        }
+      }
+      .header {
+        font-size: 4.8rem;
+        font-weight: 600;
+        padding-top: 1rem;
+        color: hsla(0, 0%, 98%, 1);
+        width: 29.4rem;
+        height: 12rem;
+      }
+      .logo-btn {
+        padding-top: 2rem;
+        text-decoration: underline;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+    }
+    .section-about--image {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}
+
+.section-flashes {
+  .red-div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .red {
+      width: 2rem;
+      height: 4rem;
+      background-color: hsla(0, 68%, 56%, 1);
+      border-radius: 0.5rem;
+    }
+    .red-para {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: hsla(0, 68%, 56%, 1);
+    }
+  }
+  .flash-div {
+    width: 117rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .flash {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 60rem;
+
+      .header {
+        font-size: 3.6rem;
+        font-weight: 600;
+        color: hsla(0, 0%, 0%, 1);
+        padding-top: 2rem;
+        line-height: 4.8rem;
+      }
+
+      .time-div {
+        .same-div {
+          display: flex;
+          align-items: center;
+          gap: 4.5rem;
+          padding-left: 1rem;
+
+          .days {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: hsla(0, 0%, 0%, 1);
+          }
+        }
+        .time {
+          display: flex;
+          align-items: center;
+          gap: 2rem;
+
+          .time-box {
+            font-size: 3.2rem;
+            font-weight: 700;
+            color: hsla(0, 0%, 0%, 1);
+          }
+          .colon {
+            font-size: 3.2rem;
+            font-weight: 600;
+            color: hsla(0, 63%, 67%, 1);
+          }
+        }
+      }
+    }
+    .icon-div {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      .fa-solid {
+        width: 4.6rem;
+        height: 4.6rem;
+        background-color: hsla(0, 0%, 96%, 1);
+        font-size: 2.4rem;
+        color: hsla(0, 0%, 0%, 1);
+        border-radius: 50%;
+        display: flex;
+        place-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .grid {
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .card {
+    padding-top: 3.5rem;
+
+    .card-para {
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: hsla(0, 0%, 0%, 1);
+      padding-top: 1rem;
+    }
+
+    .card-price {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: hsla(0, 68%, 56%, 1);
+      padding-top: 0.5rem;
+
+      .line-through {
+        text-decoration: line-through;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: hsla(0, 0%, 0%, 0.5);
+        padding-left: 1rem;
+      }
+    }
+    .rate {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding-top: 0.5rem;
+
+      img {
+        .line-through {
+          font-size: 1.4rem;
+          font-weight: 600;
+          color: hsla(0, 0%, 0%, 0.5);
+          padding-left: 1rem;
+        }
+      }
+
+      span {
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+  .btn-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+  }
+  hr {
+    margin-top: 7rem;
+    color: hsla(0, 0%, 0%, 1);
+  }
+}
+
+.section-browse {
+  .red-div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .red {
+      width: 2rem;
+      height: 4rem;
+      background-color: hsla(0, 68%, 56%, 1);
+      border-radius: 0.5rem;
+    }
+    .red-para {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: hsla(0, 68%, 56%, 1);
+    }
+  }
+
+  .browse-div {
+    width: 117rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .browse {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 60rem;
+
+      .header {
+        font-size: 3.6rem;
+        font-weight: 600;
+        color: hsla(0, 0%, 0%, 1);
+        padding-top: 2rem;
+        line-height: 4.8rem;
+      }
+    }
+    .icon-div {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      .fa-solid {
+        width: 4.6rem;
+        height: 4.6rem;
+        background-color: hsla(0, 0%, 96%, 1);
+        font-size: 2.4rem;
+        color: hsla(0, 0%, 0%, 1);
+        border-radius: 50%;
+        display: flex;
+        place-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .grid {
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .browse-card {
+    margin-top: 7rem;
+    width: 17rem;
+    height: 14.5rem;
+    border: 1px solid hsla(0, 0%, 0%, 0.3);
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 6rem;
+      height: 6rem;
+      object-fit: cover;
+      padding-bottom: 1rem;
+    }
+
+    .card-para {
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: hsla(0, 0%, 0%, 1);
+      padding-top: 2rem;
+    }
+  }
+
+  .red-card {
+    background-color: hsla(0, 68%, 56%, 1);
+
+    .fa-solid {
+      color: hsla(0, 0%, 98%, 1);
+      font-size: 4.2rem;
+      padding-bottom: 1rem;
+    }
+
+    .browse-para-1 {
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: hsla(0, 0%, 98%, 1);
+      padding-top: 1rem;
+    }
+  }
+
+  hr {
+    margin-top: 7rem;
+  }
+}
+
+.section-flashes {
+  .flash-div {
+    .btn {
+      padding: 1.5rem 3rem;
+    }
+    button {
+      border: none;
+    }
+  }
+  .card {
+    padding-top: 8rem;
+  }
+}
+
+.section-categories {
+  width: 100%;
+  height: 50rem;
+  background-color: hsla(0, 0%, 0%, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+
+  .categories-para {
+    padding-left: 4rem;
+    .heading {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: hsla(144, 100%, 50%, 1);
+    }
+    .header {
+      width: 44.3rem;
+      height: 12rem;
+      font-size: 4.8rem;
+      font-weight: 600;
+      color: hsla(0, 0%, 98%, 1);
+      line-height: 6rem;
+      letter-spacing: 4%;
+      padding-top: 2rem;
+    }
+    .same-icon {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding-top: 4.5rem;
+
+      .white-circle--div {
+        width: 6.2rem;
+        height: 6.2rem;
+        border-radius: 50%;
+        background-color: #fff;
+        color: hsla(0, 0%, 0%, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .number {
+          font-size: 1.6rem;
+          font-weight: 600;
+        }
+        .time {
+          font-size: 1.1rem;
+          font-weight: 400;
+        }
+      }
+    }
+    .btn-div {
+      button {
+        width: 17.1rem;
+        height: 5.6rem;
+        background-color: hsla(144, 100%, 50%, 1);
+        margin-top: 3.5rem;
+        border-radius: 0.5rem;
+        border: none;
+
+        .new-btn {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.section-explore {
+  .red-div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .red {
+      width: 2rem;
+      height: 4rem;
+      background-color: hsla(0, 68%, 56%, 1);
+      border-radius: 0.5rem;
+    }
+    .red-para {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: hsla(0, 68%, 56%, 1);
+    }
+  }
+
+  .browse-div {
+    width: 117rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .browse {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 60rem;
+
+      .header {
+        font-size: 3.6rem;
+        font-weight: 600;
+        color: hsla(0, 0%, 0%, 1);
+        padding-top: 2rem;
+        line-height: 4.8rem;
+        letter-spacing: 4%;
+      }
+    }
+    .icon-div {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      .fa-solid {
+        width: 4.6rem;
+        height: 4.6rem;
+        background-color: hsla(0, 0%, 96%, 1);
+        font-size: 2.4rem;
+        color: hsla(0, 0%, 0%, 1);
+        border-radius: 50%;
+        display: flex;
+        place-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .grid {
+    align-items: center;
+    gap: 3.2rem;
+  }
+  .our-product {
+    align-items: center;
+    gap: 3rem;
+    margin-top: 7rem;
+
+    .product-card {
+      width: 27em;
+      height: 25rem;
+
+      border-radius: 0.4rem;
+
+      img {
+        object-fit: cover;
+        border-radius: 0.2rem;
+      }
+    }
+
+    .product-para {
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: hsla(0, 0%, 0%, 1);
+      line-height: 2.4rem;
+      padding-top: 2rem;
+    }
+
+    .product-rate {
+      font-size: 1.6rem;
+      font-weight: 600;
+      padding-top: 0.5rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+
+      .red {
+        color: hsla(0, 68%, 56%, 1);
+      }
+    }
+    .dots {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding-top: 1rem;
+
+      .inner-circle {
+        width: 1.8rem;
+        height: 1.8rem;
+        background-color: hsla(360, 97%, 53%, 1);
+        border-radius: 50%;
+
+        border: 0.2rem solid black;
+      }
+      .circle {
+        width: 2rem;
+        height: 2rem;
+        background-color: hsla(0, 68%, 56%, 1);
+        border-radius: 50%;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+  .btn-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+  }
+}
+
+.section-new--arrival {
+  .red-div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .red {
+      width: 2rem;
+      height: 4rem;
+      background-color: hsla(0, 68%, 56%, 1);
+      border-radius: 0.5rem;
+    }
+    .red-para {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: hsla(0, 68%, 56%, 1);
+    }
+  }
+
+  .browse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60rem;
+
+    .header {
+      font-size: 3.6rem;
+      font-weight: 600;
+      color: hsla(0, 0%, 0%, 1);
+      padding-top: 2rem;
+      line-height: 4.8rem;
+      letter-spacing: 4%;
+    }
+  }
+
+  .grid {
+    align-items: center;
+    gap: 3rem;
+    margin-top: 7rem;
+  }
+
+  .div-2--images {
+    margin-top: 3rem;
+
+    .side {
+      margin-left: 2.81rem;
+    }
+  }
+  .section-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9.6rem;
+
+    .menu-card {
+      text-align: center;
+
+      .menu-header {
+        font-size: 2rem;
+        font-weight: 600;
+        color: hsla(0, 0%, 0%, 1);
+        padding-top: 1.8rem;
+      }
+      .menu-para {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: hsla(0, 0%, 0%, 1);
+        padding-top: 0.5rem;
+      }
+    }
+  }
+}
+
+.top-arrow {
+  margin-top: 10rem;
+  margin-right: 33rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  .fa-solid {
+    width: 4rem;
+    height: 4rem;
+    background-color: hsla(0, 0%, 96%, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 2rem;
+    color: hsla(0, 0%, 0%, 1);
+  }
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: hsla(0, 0%, 0%, 1);
+  margin-top: 4rem;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: flex-start;
+  padding: 4rem 2rem;
+  justify-content: center;
+
+  .grid {
+    gap: 9.2rem;
+  }
+
+  .container {
+    width: 117rem;
+    height: auto;
+
+    .footer-div--1 {
+      .footer-header {
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: hsla(0, 0%, 98%, 1);
+      }
+      .heading {
+        font-size: 2rem;
+        font-weight: 500;
+        color: hsla(0, 0%, 98%, 1);
+        padding-top: 3rem;
+      }
+      .para {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: hsla(0, 0%, 98%, 1);
+        padding-top: 3rem;
+      }
+
+      .email {
+        width: 21.7rem;
+        height: 4.8rem;
+        margin-top: 1rem;
+        background-color: hsla(0, 0%, 0%, 1);
+        border: 0.2rem solid hsla(0, 0%, 98%, 1);
+        border-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: hsla(0, 0%, 98%, 1);
+
+        .email-para {
+          font-size: 1.4rem;
+          font-weight: 400;
+          color: hsla(0, 0%, 98%, 1);
+          padding-left: 1.5rem;
+        }
+
+        .fa-solid {
+          font-size: 2rem;
+          color: hsla(0, 0%, 98%, 1);
+          cursor: pointer;
+          padding-right: 3rem;
+        }
+      }
+    }
+
+    .footer-subheading {
+      font-size: 2rem;
+      font-weight: 500;
+      color: hsla(0, 0%, 98%, 1);
+    }
+    .footer-para {
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: hsla(0, 0%, 100%, 1);
+      padding-top: 2.4rem;
+      line-height: 2.4rem;
+    }
+
+    .footer-div--5 {
+      width: 19.8rem;
+      height: 16.2rem;
+
+      .footer-para {
+        width: 19.4rem;
+        height: 1.8rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: hsla(0, 0%, 98%, 1);
+        line-height: 1.8rem;
+        padding-bottom: 2rem;
+      }
+
+      .app-images {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding-top: 0.5rem;
+
+        img {
+          width: 8rem;
+          height: 8rem;
+          object-fit: cover;
+        }
+
+        .app-store-images {
+          img {
+            width: 11rem;
+            height: 4rem;
+          }
+        }
+      }
+      .social-icons {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        padding-top: 2rem;
+
+        .fa-brands {
+          font-size: 2.4rem;
+
+          color: hsla(0, 0%, 98%, 1);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

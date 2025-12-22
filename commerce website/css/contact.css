@@ -1,0 +1,149 @@
+.section-contact--about{
+
+    .heading-div{
+         padding: 8rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 8rem;
+
+    .para{
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: hsla(0, 0%, 0%, 0.5);
+
+        .para-bold--word{
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: hsla(0, 0%, 0%, 1);
+        }
+    }
+    }
+
+    .call-div{
+        width: 34rem;
+        height: 45.7rem;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+
+        .para-div{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            padding-top: 3rem;
+            padding-left: 3rem;
+
+
+            .fa-solid{
+                width: 4rem;
+                height: 4rem;
+                background-color: hsla(0, 68%, 56%, 1);
+                color: #fff;
+                border-radius: 50%;
+                font-size: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .header{
+                font-size: 1.6rem;
+                font-weight: 500;
+                color: hsla(0, 0%, 0%, 1);
+            }
+        }
+
+        .para{
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 2.1rem;
+            padding-top: 2rem;
+            padding-left: 3rem;
+        }
+
+        hr{
+            width: 27rem;
+            margin-top: 3rem;
+            border: 0.1rem solid hsla(0, 0%, 0%, 0.1);
+            margin-left: 3rem;
+
+        }
+    }
+
+    .message-div{
+        width: 80rem;
+        height: 45.7rem;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+
+         .form-header{
+             display: flex;
+             gap: 1.5rem;
+             padding-top: 3rem;
+             padding-left: 3rem;
+
+        .form-group{
+           
+
+            input{
+                width: 23.5rem;
+                padding: 1.5rem;
+                background-color: hsla(0, 0%, 96%, 1);
+                border-radius: 0.5rem;
+                font-size: 1.4rem;
+                font-weight: 400;
+                border: none;
+                outline: none;
+            }
+
+          
+         }
+         }
+
+          .message{
+                width: 73.7rem;
+                height: 20.7rem;
+                background-color: hsla(0, 0%, 96%, 1);
+                border-radius: 0.5rem;
+                margin-top: 3rem;
+                margin-left: 3rem;
+
+
+            input{
+                background-color: hsla(0, 0%, 96%, 1);
+                font-size: 1.4rem;
+                font-weight: 400;
+                border-radius: 0.3rem;
+                border: none;
+                padding: 1.5rem;
+                text-align: start;
+            }
+
+          
+         }
+
+         .form-group-btn{
+              display: flex;
+              align-items: center;
+              justify-content: end;
+                margin-top: 3rem;
+                margin-right: 3rem;
+
+        button{
+            width: 21.5rem;
+            height: 5.6rem;
+            background-color: hsla(0, 68%, 56%, 1);
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: 500;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+         }
+         }
+
+       
+    }
+}
+
+.section-gap-1{
+   margin-top: 16rem;
+}
