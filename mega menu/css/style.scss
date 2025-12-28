@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 130rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-header {
+  width: 100%;
+  background-color: #f5f5f5;
+
+  .section-navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .logo-images {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      img {
+        width: 2.3rem;
+        height: auto;
+      }
+
+      .logo-text {
+        font-size: 2rem;
+      }
+    }
+    nav {
+      margin-left: auto;
+      ul {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+
+        .nav-item {
+          font-size: 1.6rem;
+          cursor: pointer;
+          color: #767676;
+          padding: 1.5rem 0;
+        }
+        .drop-down {
+          position: relative;
+
+          &:hover {
+            color: #000000;
+            .drop-down--content {
+              display: block;
+            }
+          }
+
+          .drop-down--content {
+            position: absolute;
+            top: 4.8rem;
+            width: 47rem;
+            left: -35%;
+            padding: 2rem;
+            background-color: #e9ecff;
+            border-radius: 1.4rem;
+            display: none;
+
+            .drop-down-1 {
+              display: flex;
+              align-items: center;
+              gap: 3rem;
+              padding: 2rem 3rem;
+
+              .dropdown-header {
+                font-size: 1.8rem;
+                font-weight: 500;
+                color: #000000;
+              }
+
+              .dropdown-para {
+                font-size: 1.8rem;
+                font-weight: 500;
+                padding-top: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    .search-div {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      cursor: pointer;
+      margin-left: auto;
+
+      .fa-magnifying-glass {
+        font-size: 1.8rem;
+        color: #767676;
+      }
+      .search-para {
+        font-size: 1.6rem;
+        color: #767676;
+      }
+    }
+    button {
+      margin-left: 2rem;
+      padding: 0.8rem 3.5rem;
+      font-size: 1.6rem;
+      background-color: #ff3366;
+      color: #ffffff;
+      border: none;
+      border-radius: 0.4rem;
+      cursor: pointer;
+    }
+  }
+}

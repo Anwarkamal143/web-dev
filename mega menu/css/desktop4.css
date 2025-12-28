@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-three--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+  max-width: 144rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-header {
+  width: 100%;
+  height: auto;
+}
+.section-header .section-navbar {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-header .section-navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.section-header .section-navbar .logo .logo-text {
+  font-size: 3.4rem;
+  font-weight: 500;
+  color: #000000;
+}
+.section-header .section-navbar nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  font-size: 1.8rem;
+  border-bottom: 2px solid transparent;
+}
+.section-header .section-navbar nav ul .nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000000;
+  cursor: pointer;
+  padding: 1rem;
+}
+.section-header .section-navbar nav ul .nav-item img {
+  width: 1.5rem;
+  height: 1.2rem;
+}
+.section-header .section-navbar nav ul .drop-down {
+  position: relative;
+}
+.section-header .section-navbar nav ul .drop-down:hover {
+  color: #000000;
+  font-weight: 600;
+  border-bottom: 2px solid #000000;
+}
+.section-header .section-navbar nav ul .drop-down:hover img {
+  rotate: 180deg;
+}
+.section-header .section-navbar nav ul .drop-down:hover .drop-down--menu {
+  display: flex;
+}
+.section-header .section-navbar nav ul .drop-down .grid {
+  padding-top: 6rem;
+  gap: 6.4rem;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0%;
+  display: none;
+  right: 44rem;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .dropdown-1 .header {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .dropdown-1 .line {
+  width: 22rem;
+  border-bottom: 1px solid #000000;
+  padding-top: 1rem;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .dropdown-1 .line-2 {
+  width: 45rem;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .dropdown-1 .line-3 {
+  width: 28rem;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .dropdown-1 .para-div {
+  padding-top: 3rem;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .dropdown-1 .para-div .para {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #000000;
+  padding-top: 1.5rem;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .dropdown-1 .card-div {
+  width: 31.6rem;
+  height: 31.8rem;
+  padding: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 3rem;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .dropdown-1 .card-div img {
+  width: 29.6rem;
+  height: 17.2rem;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .dropdown-1 .card-div .card-head {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #546f99;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .dropdown-1 .card-div .card-para {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: auto;
+  letter-spacing: 0.1rem;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .dropdown-1 .card-div .last-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1em;
+  color: #546f99;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--menu .div {
+  display: flex;
+  justify-content: space-between;
+  width: 45rem;
+}
+
+.last-btn--div {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.last-btn--div .line-div {
+  width: 0.2rem;
+  height: 2rem;
+  background-color: #767676;
+}
+.last-btn--div .last-para {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #767676;
+}
+.last-btn--div button {
+  padding: 0.8rem 2.5rem;
+  background-color: #f16a6a;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.3rem;
+}/*# sourceMappingURL=desktop4.css.map */

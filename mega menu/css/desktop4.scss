@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+.grid {
+  display: grid;
+}
+.grid-three--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+  max-width: 144rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-header {
+  width: 100%;
+  height: auto;
+
+  .section-navbar {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      .logo-text {
+        font-size: 3.4rem;
+        font-weight: 500;
+        color: #000000;
+      }
+    }
+    nav {
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        font-size: 1.8rem;
+        border-bottom: 2px solid transparent;
+
+        .nav-item {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 1.8rem;
+          font-weight: 500;
+          color: #000000;
+          cursor: pointer;
+          padding: 1rem;
+
+          img {
+            width: 1.5rem;
+            height: 1.2rem;
+          }
+        }
+        .drop-down {
+          position: relative;
+
+          &:hover {
+            color: #000000;
+            font-weight: 600;
+            border-bottom: 2px solid #000000;
+
+            img {
+              rotate: 180deg;
+            }
+
+            .drop-down--menu {
+              display: flex;
+            }
+          }
+
+          .grid {
+            padding-top: 6rem;
+            gap: 6.4rem;
+          }
+
+          .drop-down--menu {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            top: 0%;
+            display: none;
+            right: 44rem;
+
+            .dropdown-1 {
+              .header {
+                font-size: 1.6rem;
+                font-weight: 600;
+              }
+              .line {
+                width: 22rem;
+                border-bottom: 1px solid #000000;
+                padding-top: 1rem;
+              }
+
+              .line-2 {
+                width: 45rem;
+              }
+              .line-3 {
+                width: 28rem;
+              }
+
+              .para-div {
+                padding-top: 3rem;
+                .para {
+                  font-size: 1.4rem;
+                  font-weight: 400;
+                  color: #000000;
+                  padding-top: 1.5rem;
+                }
+              }
+              .card-div {
+                width: 31.6rem;
+                height: 31.8rem;
+                padding: 1rem;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                margin-top: 3rem;
+
+                img {
+                  width: 29.6rem;
+                  height: 17.2rem;
+                }
+
+                .card-head {
+                  font-size: 1.5rem;
+                  font-weight: 400;
+                  color: #546f99;
+                }
+                .card-para {
+                  font-size: 1.6rem;
+                  font-weight: 600;
+                  line-height: auto;
+                  letter-spacing: 0.1rem;
+                }
+                .last-div {
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  margin-top: 1em;
+                  color: #546f99;
+                }
+              }
+            }
+            .div {
+              display: flex;
+              justify-content: space-between;
+              width: 45rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.last-btn--div {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+  .line-div {
+    width: 0.2rem;
+    height: 2rem;
+    background-color: #767676;
+  }
+
+  .last-para {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #767676;
+  }
+
+  button {
+    padding: 0.8rem 2.5rem;
+    background-color: #f16a6a;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.3rem;
+  }
+}

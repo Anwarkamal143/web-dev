@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-four--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container {
+  max-width: 144rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-header {
+  width: 100%;
+  height: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section-header .section-navbar {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.section-header .section-navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.section-header .section-navbar .logo .logo-text {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #000000;
+}
+.section-header .section-navbar nav {
+  margin-left: 15rem;
+}
+.section-header .section-navbar nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  font-size: 1.8rem;
+}
+.section-header .section-navbar nav ul .nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #000000;
+  cursor: pointer;
+  padding: 1rem 0;
+}
+.section-header .section-navbar nav ul .nav-item img {
+  width: 0.7rem;
+  height: 0.5rem;
+}
+.section-header .section-navbar nav ul .mega-menu:hover {
+  color: #00a82d;
+  border-bottom: 2px solid #00a82d;
+}
+.section-header .section-navbar nav ul .mega-menu:hover .mega-menu--dropdown {
+  display: flex;
+}
+.section-header .section-navbar nav ul .mega-menu .grid {
+  align-items: center;
+  gap: 9.6rem;
+}
+.section-header .section-navbar nav ul .mega-menu .mega-menu--dropdown {
+  position: absolute;
+  width: 100vw;
+  top: 9rem;
+  right: 0;
+  display: none;
+  color: #000000;
+}
+.section-header .section-navbar nav ul .mega-menu .mega-menu--dropdown .mega-div--1 .mega-div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+  width: 29.4rem;
+  height: 8.5rem;
+}
+.section-header .section-navbar nav ul .mega-menu .mega-menu--dropdown .mega-div--1 .mega-div .mega-image {
+  width: 8.5rem;
+  aspect-ratio: 1;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-header .section-navbar nav ul .mega-menu .mega-menu--dropdown .mega-div--1 .mega-div .mega-image img {
+  width: 3.2rem;
+  height: auto;
+  background: transparent;
+}
+.section-header .section-navbar nav ul .mega-menu .mega-menu--dropdown .mega-div--1 .mega-div .mega-para .header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  height: auto;
+}
+.section-header .section-navbar nav ul .mega-menu .mega-menu--dropdown .mega-div--1 .mega-div .mega-para .para {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000000;
+  padding-top: 0.5rem;
+}
+.section-header .section-navbar .last-btn--div {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.section-header .section-navbar .last-btn--div .btn-para {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.section-header .section-navbar .last-btn--div button {
+  padding: 0.9rem 3rem;
+  background-color: transparent;
+  border: 2px solid #00a82d;
+  color: #00a82d;
+}/*# sourceMappingURL=desktop3.css.map */
