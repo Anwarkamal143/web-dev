@@ -1,0 +1,19 @@
+// this is Card section styles
+
+.cart {
+  border: 1px solid green;
+
+  .header {
+    font-size: 1.4rem;
+  }
+  .cart-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    .single-item {
+      margin-bottom: 8px;
+      .name {
+        background-color: gray;
+      }
+    }
+  }
+}

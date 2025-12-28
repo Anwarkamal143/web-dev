@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 130rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-header {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.section-header .section-navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.section-header .section-navbar .logo-images {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.section-header .section-navbar .logo-images img {
+  width: 2.3rem;
+  height: auto;
+}
+.section-header .section-navbar .logo-images .logo-text {
+  font-size: 2rem;
+}
+.section-header .section-navbar nav {
+  margin-left: auto;
+}
+.section-header .section-navbar nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.section-header .section-navbar nav ul .nav-item {
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #767676;
+  padding: 1.5rem 0;
+}
+.section-header .section-navbar nav ul .drop-down {
+  position: relative;
+}
+.section-header .section-navbar nav ul .drop-down:hover {
+  color: #000000;
+}
+.section-header .section-navbar nav ul .drop-down:hover .drop-down--content {
+  display: block;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--content {
+  position: absolute;
+  top: 4.8rem;
+  width: 47rem;
+  left: -35%;
+  padding: 2rem;
+  background-color: #e9ecff;
+  border-radius: 1.4rem;
+  display: none;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--content .drop-down-1 {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 3rem;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--content .drop-down-1 .dropdown-header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000000;
+}
+.section-header .section-navbar nav ul .drop-down .drop-down--content .drop-down-1 .dropdown-para {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+.section-header .section-navbar .search-div {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+.section-header .section-navbar .search-div .fa-magnifying-glass {
+  font-size: 1.8rem;
+  color: #767676;
+}
+.section-header .section-navbar .search-div .search-para {
+  font-size: 1.6rem;
+  color: #767676;
+}
+.section-header .section-navbar button {
+  margin-left: 2rem;
+  padding: 0.8rem 3.5rem;
+  font-size: 1.6rem;
+  background-color: #ff3366;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

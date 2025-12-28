@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-four--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container {
+  max-width: 130rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-header {
+  width: 100%;
+  height: auto;
+}
+.section-header .section-navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.section-header .section-navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.section-header .section-navbar .logo .logo-text {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: #ff3366;
+}
+.section-header .section-navbar nav {
+  margin-left: 12rem;
+}
+.section-header .section-navbar nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  font-size: 1.8rem;
+}
+.section-header .section-navbar nav ul .nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000000;
+  cursor: pointer;
+  padding: 1rem;
+}
+.section-header .section-navbar nav ul .nav-item img {
+  width: 1.5rem;
+  height: 1.2rem;
+}
+.section-header .section-navbar nav ul .drop-down:hover {
+  color: #767676;
+}
+.section-header .section-navbar nav ul .drop-down:hover .mega-menu {
+  display: flex;
+}
+.section-header .section-navbar nav ul .drop-down:hover img {
+  rotate: 180deg;
+}
+.section-header .section-navbar nav ul .drop-down .grid {
+  gap: 6.4rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu {
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  width: 100%;
+  display: none;
+  padding-top: 5rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--1 .header {
+  font-size: 2.2rem;
+  color: #5a5a5a;
+  font-weight: 500;
+  width: 19.3rem;
+  height: 2.7rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--1 .color {
+  color: #000000;
+  font-weight: 600;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--1 .para {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000000;
+  padding-top: 1rem;
+  width: 31.3rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--1 .size {
+  color: #767676;
+  padding-top: 2.5rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--1 .gap {
+  padding-top: 1.8rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--1 .ptop {
+  padding-top: 3rem;
+  color: #000000;
+  padding-bottom: 2rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--1 .ptop-1 {
+  padding-top: 3.5rem;
+  color: #000000;
+  padding-bottom: 2rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .border {
+  border-right: 1.5px solid #454545;
+  height: 45.6rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .border-width {
+  width: 16rem;
+  height: 45.5rem;
+  border-right: 1.5px solid #000000;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--2 .header-2 {
+  font-size: 2.4rem;
+  color: #000000;
+  font-weight: 600;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--2 .div-1 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 41.6rem;
+  height: auto;
+  padding-top: 3rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--2 .div-1 img {
+  width: 18rem;
+  height: 17.2rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--2 .div-1 .pbtm {
+  padding-bottom: 2rem;
+  font-size: 1.8rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--2 .div-1 .para-1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--2 .last-div {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--2 .last-div .last-para {
+  color: #ff3366;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.section-header .section-navbar nav ul .drop-down .mega-menu .mega-div--2 .last-div .fa-solid {
+  color: #ff3366;
+  font-size: 1.4rem;
+}
+.section-header .section-navbar .last-btn--div {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.section-header .section-navbar .last-btn--div .btn-para {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000000;
+}
+.section-header .section-navbar .last-btn--div button {
+  padding: 0.5rem 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #ff3366;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: white;
+}
+.section-header .section-navbar .last-btn--div .fa-solid {
+  font-size: 1.8rem;
+}/*# sourceMappingURL=desktop5.css.map */

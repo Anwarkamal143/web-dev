@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+.grid {
+  display: grid;
+}
+.grid-three--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+  max-width: 122rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-header {
+  .section-navbar {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      .logo-text {
+        font-size: 3rem;
+        font-weight: 600;
+        color: #000000;
+      }
+    }
+
+    nav {
+      margin-left: auto;
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+        font-size: 1.8rem;
+
+        .nav-item {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 1.8rem;
+          font-weight: 500;
+          color: #000000;
+          cursor: pointer;
+
+          img {
+            width: 0.7rem;
+            height: 0.5rem;
+          }
+        }
+        .mega-menu-parent {
+          position: relative;
+
+          &:hover {
+            color: #00a82d;
+            .mega-menu {
+              display: flex;
+            }
+          }
+
+          .mega-menu {
+            position: absolute;
+            top: 3.5rem;
+            left: -25rem;
+            width: 75.5rem;
+            background-color: #ffffff;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            border: 2px solid black;
+            display: none;
+            color: #000000;
+
+            .first-div {
+              width: 24.8rem;
+              padding: 2rem 1.5rem;
+
+              .mega-header {
+                font-size: 1.8rem;
+                font-weight: 500;
+                margin-bottom: 1.5rem;
+              }
+
+              .mega-para {
+                font-size: 1.6rem;
+                font-weight: 400;
+                margin-bottom: 1.5rem;
+                line-height: auto;
+              }
+              img {
+                width: 100%;
+                height: auto;
+                padding-top: 0.5rem;
+              }
+            }
+            .line {
+              border-right: 2px solid black;
+            }
+            .second-div {
+              padding: 2.5rem 1.5rem;
+              .para-2 {
+                font-size: 1.8rem;
+                font-weight: 500;
+                margin-left: 4rem;
+                padding-bottom: 3rem;
+                line-height: 2.4rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .log-div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 4rem;
+
+    .log-para {
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+    button {
+      padding: 1rem 3rem;
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: #ffffff;
+      background-color: #000000;
+      border: none;
+      border-radius: 0.4rem;
+      cursor: pointer;
+    }
+  }
+}
